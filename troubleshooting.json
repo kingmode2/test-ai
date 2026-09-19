@@ -1,0 +1,120 @@
+[
+  {
+    "title": "The receipt is not printing",
+    "page": "/management/settings/receipt",
+    "text": "Most of the time, the printer is not selected yet or the paper size is wrong. The sale is still saved, so you can print the receipt again later.",
+    "steps": [
+      "Click Sidebar > Point of Sale, then Click More Options > Printer Setup.",
+      "Select your printer and set the Paper Width to match your paper roll. Most small printers use 58mm, while wider ones use 80mm.",
+      "Click Test Print and check that the printer is on, has paper, and is connected properly.",
+      "To print the receipt again, open More Options > View Sales History, select the sale, and click Re-print Receipt."
+    ],
+    "keywords": [
+      "no receipt",
+      "receipt did not print",
+      "printer problem",
+      "nothing prints",
+      "walang lumalabas na resibo",
+      "di mag print"
+    ]
+  },
+  {
+    "title": "The customer display is empty or shows the wrong cart",
+    "page": "/management/settings/terminals",
+    "text": "A customer display on a second computer only works once that register is added as a terminal. Until then it stays empty.",
+    "steps": [
+      "Click Sidebar > Settings, then Terminals. Check if the register terminal is in the list.",
+      "If it is not, open Point of Sale on that computer. Pick Register as new terminal and type a name, like Counter 1.",
+      "Do this on every Point of Sale. Two registers must never share one terminal.",
+      "Open the customer display again. It should follow the cart as you scan."
+    ],
+    "keywords": [
+      "customer display blank",
+      "second screen not working",
+      "customer screen empty",
+      "display not updating",
+      "wrong cart showing",
+      "other cashier items",
+      "display stuck"
+    ]
+  },
+  {
+    "title": "A staff member cannot open a page",
+    "page": "/management/users",
+    "text": "Each staff account can only open pages that are allowed for that role. If a page or menu is missing, the permission for that page is turned off.",
+    "steps": [
+      "Click Sidebar > Users & Security.",
+      "Double-click the staff member, then open the Permissions tab.",
+      "Turn on the pages they need and click Save.",
+      "Ask them to sign out and sign in again.",
+      "If many people need the same access, go to Settings > Roles & Permissions, and create a role for them."
+    ],
+    "keywords": [
+      "cannot open page",
+      "no access",
+      "page not showing",
+      "cannot see reports",
+      "missing menu",
+      "access denied",
+      "hidden page"
+    ]
+  },
+  {
+    "title": "A product is missing at the register",
+    "page": "/management/products",
+    "text": "Products are assigned to a branch. If an item is missing at the register, it is often inactive for this branch or it was created for another branch.",
+    "steps": [
+      "Click Sidebar > Products > Product List, and search for the item.",
+      "Check the Active filter. If needed, edit the product and turn Active Status back on.",
+      "Check whether the barcode matches what the scanner reads by scanning it into the search box.",
+      "If the product exists only on another branch, click Import Products and copy it to this branch."
+    ],
+    "keywords": [
+      "product not showing",
+      "cannot find product",
+      "item missing",
+      "not in search",
+      "barcode not found",
+      "product not at till",
+      "walang product"
+    ]
+  },
+  {
+    "title": "A report is empty",
+    "page": "/management/reporting",
+    "text": "Most empty reports are caused by the date range. Many reports start on today only, so older dates may look empty unless you choose a wider time period.",
+    "steps": [
+      "Click Sidebar > Reportings > Pick the report you want.",
+      "Click the date range button and choose the days you want, then click Generate Report.",
+      "Check the branch name at the top. A report usually shows one branch unless you choose All Branch.",
+      "Clear any product, cashier, or customer filter still in the filter bar.",
+      "If it is still empty, check whether your account is allowed to view reports under Users & Security."
+    ],
+    "keywords": [
+      "report empty",
+      "no data",
+      "report shows nothing",
+      "blank report",
+      "walang laman ang report",
+      "report has no rows"
+    ]
+  },
+  {
+    "title": "Tinker will not give me numbers",
+    "page": "/management/users",
+    "text": "Tinker can only show numbers that your account is allowed to see. If it gives you a guide instead of a result, your account probably does not have permission to open reports.",
+    "steps": [
+      "Ask an owner to open Users & Security, open your account, and turn on Reports.",
+      "Include the time period in your question, such as today, this week, or this month.",
+      "Sign out and sign in again so the new permission takes effect."
+    ],
+    "keywords": [
+      "tinker no answer",
+      "tinker cannot answer",
+      "no sales figures",
+      "assistant not working",
+      "chat not answering",
+      "tinker sales"
+    ]
+  }
+]

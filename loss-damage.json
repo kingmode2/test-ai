@@ -1,0 +1,310 @@
+[
+  {
+    "title": "Write off broken, expired, or missing stock",
+    "page": "/management/inventory/loss-damage",
+    "text": "Loss & Damage takes items you cannot sell out of stock and records why. Reports then show what keeps costing you money.",
+    "steps": [
+      "Open Inventory > Loss & Damage.",
+      "Click New Loss & Damage.",
+      "Select a product and enter the lost quantity.",
+      "Select a reason and add a note.",
+      "Click Save."
+    ],
+    "keywords": [
+      "loss and damage",
+      "write off",
+      "broken items",
+      "damaged goods",
+      "expired stock",
+      "stolen",
+      "shrinkage",
+      "new loss"
+    ]
+  },
+  {
+    "title": "Add a new loss reason",
+    "page": "/management/inventory/loss-damage",
+    "text": "Reasons live in a dropdown so they stay the same every time. You can add one without leaving the editor.",
+    "steps": [
+      "Open Inventory > Loss & Damage.",
+      "Click New Loss & Damage.",
+      "Open the Reason dropdown.",
+      "Click Add New and enter the reason.",
+      "Click Save."
+    ],
+    "keywords": [
+      "add reason",
+      "new reason",
+      "loss reason",
+      "reason list",
+      "custom reason",
+      "damage reason"
+    ]
+  },
+  {
+    "title": "Save a loss record as a draft",
+    "page": "/management/inventory/loss-damage",
+    "text": "A draft keeps your rows without changing any stock. The reason is only required when you finally save.",
+    "steps": [
+      "Click Save as Draft.",
+      "Open Inventory > Loss & Damage later.",
+      "Find the row marked Draft.",
+      "Open its menu and click Edit Loss & Damage.",
+      "Finish the record and click Save."
+    ],
+    "keywords": [
+      "draft loss",
+      "finish later",
+      "continue draft",
+      "edit loss and damage",
+      "unfinished loss"
+    ]
+  },
+  {
+    "title": "Write off a batch that is expiring",
+    "page": "/management/inventory/loss-damage",
+    "text": "Expired or soon-to-expire stock is a Loss & Damage record because it can no longer be sold. You can start the record from the batch or expiry details when that shortcut is available.",
+    "steps": [
+      "Open the Loss & Damage entry.",
+      "Check the product, batch, expiry, and quantity.",
+      "Enter the unsellable quantity.",
+      "Select an expiry reason and add a note.",
+      "Click Save."
+    ],
+    "keywords": [
+      "write off expiry"
+    ]
+  },
+  {
+    "title": "Which Stock Record Should I Use?",
+    "page": "/management/inventory/loss-damage",
+    "text": "Use Loss & Damage when stock is damaged or missing. Use another stock record when the quantity is simply wrong.",
+    "steps": [
+      "Damaged or missing stock? Use Loss & Damage.",
+      "Wrong stock number? Use Stock Adjustment.",
+      "Counting shelves? Use Inventory Count."
+    ],
+    "keywords": [
+      "damaged or missing stock",
+      "wrong stock number",
+      "loss or adjustment",
+      "stock record choice",
+      "inventory count or loss"
+    ]
+  },
+  {
+    "title": "Cannot write off more than you have",
+    "page": "/management/inventory/loss-damage",
+    "text": "A loss cannot be bigger than the quantity on hand. If the shelf is emptier than the system thinks, fix the number first.",
+    "steps": [
+      "Check the product's stock quantity.",
+      "Enter that quantity or less.",
+      "Fix wrong stock in Stock Adjustment first."
+    ],
+    "keywords": [
+      "more than on hand",
+      "quantity too high",
+      "blocked quantity",
+      "exceeds stock",
+      "loss quantity error"
+    ]
+  },
+  {
+    "title": "Review what has been written off",
+    "page": "/management/inventory/loss-damage",
+    "text": "Every record stays in the list with its reference and reason. Group them by period to see trends.",
+    "steps": [
+      "Open Inventory > Loss & Damage.",
+      "Search by reference, reason, or period.",
+      "Open a row and click View Loss & Damage.",
+      "Use Print & Export for a copy."
+    ],
+    "keywords": [
+      "view loss",
+      "loss history",
+      "losses this month",
+      "print losses",
+      "loss report",
+      "loss export"
+    ]
+  },
+  {
+    "title": "Record several lost products together",
+    "page": "/management/inventory/loss-damage",
+    "text": "One Loss & Damage record can include more than one product. Add every item from the same incident so the stock movement and note stay together.",
+    "steps": [
+      "Open Inventory > Loss & Damage.",
+      "Click New Loss & Damage.",
+      "Select each product and enter its lost quantity.",
+      "Select a reason and add a note.",
+      "Check the rows and click Save."
+    ],
+    "keywords": [
+      "multiple losses",
+      "several products",
+      "many damaged items",
+      "bulk write off",
+      "same incident",
+      "add multiple products"
+    ]
+  },
+  {
+    "title": "Add useful details to a loss record",
+    "page": "/management/inventory/loss-damage",
+    "text": "A short note makes a loss easier to check later. Include what happened, where it happened, and any reference or staff detail your business uses.",
+    "steps": [
+      "Open New Loss & Damage.",
+      "Add the product and quantity.",
+      "Select a reason.",
+      "Add the incident details in Note.",
+      "Click Save."
+    ],
+    "keywords": [
+      "loss note",
+      "add details",
+      "damage explanation",
+      "loss reference",
+      "record what happened",
+      "audit note"
+    ]
+  },
+  {
+    "title": "Avoid recording the same loss twice",
+    "page": "/management/inventory/loss-damage",
+    "text": "Save one record for each incident. Before saving a new one, search the list for the date, product, reason, or reference so the same missing stock is not deducted twice.",
+    "steps": [
+      "Open Inventory > Loss & Damage.",
+      "Search by product, reason, reference, or period.",
+      "Open a matching row.",
+      "Do not record the same incident twice.",
+      "For a new incident, click New Loss & Damage and save once."
+    ],
+    "keywords": [
+      "duplicate loss",
+      "same loss twice",
+      "duplicate write off",
+      "avoid double deduction",
+      "check loss history",
+      "already recorded"
+    ]
+  },
+  {
+    "title": "Understand what happens after saving a loss",
+    "page": "/management/inventory/loss-damage",
+    "text": "A saved loss reduces the product quantity immediately and remains in the Loss & Damage list. Use the reference, reason, and period to trace it in stock history and reports.",
+    "steps": [
+      "Check the product and Loss/Damage Qty.",
+      "Select a reason.",
+      "Click Save to update inventory.",
+      "Open Loss & Damage to see the saved record.",
+      "Use Action > View Loss & Damage to check its details."
+    ],
+    "keywords": [
+      "after saving loss",
+      "loss deducted immediately",
+      "stock history loss",
+      "check write off"
+    ]
+  },
+  {
+    "title": "Understand the Loss & Damage detail panel",
+    "page": "/management/inventory/loss-damage",
+    "text": "The Loss & Damage detail panel lists each selected product and the values needed to calculate the write-off. Stock shows the quantity on hand, Loss/Damage Qty is the quantity being recorded, and Cost shows the cost of the affected items.",
+    "steps": [
+      "Open a new Loss & Damage record.",
+      "Search for and select a product.",
+      "Check Stock.",
+      "Enter Loss/Damage Qty.",
+      "Check Cost and confirm the product is correct."
+    ],
+    "keywords": [
+      "loss damage details",
+      "stock on hand loss",
+      "loss damage quantity",
+      "loss qty",
+      "cost of damaged items",
+      "check loss product"
+    ]
+  },
+  {
+    "title": "Review loss totals before saving",
+    "page": "/management/inventory/loss-damage",
+    "text": "The summary at the bottom of the Loss & Damage form shows the Total Qty and Total Cost for all products in the record. Review both totals before posting the loss.",
+    "steps": [
+      "Add the products and quantities.",
+      "Check the summary at the bottom.",
+      "Check Total Qty.",
+      "Check Total Cost.",
+      "Correct errors before saving."
+    ],
+    "keywords": [
+      "loss total quantity",
+      "total cost loss",
+      "loss summary",
+      "review before saving",
+      "write off value",
+      "loss transaction total"
+    ]
+  },
+  {
+    "title": "Save, draft, or cancel a loss record",
+    "page": "/management/inventory/loss-damage",
+    "text": "Save posts the Loss & Damage record and updates inventory. Save as Draft keeps the work for later without posting it, while Cancel discards the record without changing stock.",
+    "steps": [
+      "Select a reason and check the quantities.",
+      "Click Save to post the loss.",
+      "Click Save as Draft to finish later.",
+      "Click Cancel to discard it."
+    ],
+    "keywords": [
+      "save loss record",
+      "save as draft loss",
+      "cancel loss",
+      "discard loss",
+      "post loss",
+      "update inventory loss"
+    ]
+  },
+  {
+    "title": "Read the Loss & Damage dashboard",
+    "page": "/management/inventory/loss-damage",
+    "text": "The Loss & Damage dashboard lists recorded transactions and their reference number, transaction date, status, reason, total quantity, total cost, overall cost, and note.",
+    "steps": [
+      "Open Inventory > Loss & Damage.",
+      "Find the record by Reference Number.",
+      "Check its date and Posted or Draft status.",
+      "Review the reason, quantities, costs, and note.",
+      "Open the Action menu for details."
+    ],
+    "keywords": [
+      "loss dashboard",
+      "loss transaction list",
+      "loss reference number",
+      "posted loss",
+      "draft loss status",
+      "overall cost loss",
+      "loss dashboard columns"
+    ]
+  },
+  {
+    "title": "View a Loss & Damage transaction",
+    "page": "/management/inventory/loss-damage",
+    "text": "View Loss & Damage shows the transaction header and each affected product. It includes the reference, date, reason, notes, product name, barcode, expiration, actual quantity before the loss, Loss/Damage Qty, unit cost, and total cost.",
+    "steps": [
+      "Open Inventory > Loss & Damage.",
+      "Find the transaction.",
+      "Open Action > View Loss & Damage.",
+      "Check the reference, date, reason, and notes.",
+      "Check each product's barcode, expiry, quantities, and costs."
+    ],
+    "keywords": [
+      "view loss damage",
+      "loss transaction details",
+      "actual quantity before loss",
+      "loss product barcode",
+      "loss expiration",
+      "loss unit cost",
+      "loss total cost"
+    ]
+  }
+]

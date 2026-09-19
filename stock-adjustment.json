@@ -1,0 +1,115 @@
+[
+  {
+    "title": "Correct a wrong stock number",
+    "page": "/management/inventory/stock-adjustment",
+    "text": "A stock adjustment sets a product to the right quantity and saves the reason. Anyone can see why it changed.",
+    "steps": [
+      "Click sidebar > Inventory, then Stock Adjustment.",
+      "Click New Stock Adjustment.",
+      "Search the product on the left. Click it to add it.",
+      "On the right, type the correct quantity and the reason.",
+      "Click Save. Stock changes automatically."
+    ],
+    "keywords": [
+      "stock adjustment",
+      "adjust stock",
+      "correct quantity",
+      "wrong stock",
+      "found extra stock",
+      "used in store",
+      "new stock adjustment"
+    ]
+  },
+  {
+    "title": "Adjustment, loss, or count: which one to use",
+    "page": "/management/inventory/stock-adjustment",
+    "text": "Each one tells a different story in your reports. Choose the option that matches what really happened.",
+    "steps": [
+      "Stock Adjustment: the stock number was wrong, or staff used stock inside the store.",
+      "Loss & Damage: items broke, expired, were stolen, or went missing.",
+      "Inventory Count: you counted everything on the shelves and recorded the total.",
+      "All three of these are under Sidebar > Inventory."
+    ],
+    "keywords": [
+      "adjustment vs loss",
+      "which document",
+      "when to adjust",
+      "difference",
+      "miscount"
+    ]
+  },
+  {
+    "title": "Save an adjustment as a draft",
+    "page": "/management/inventory/stock-adjustment",
+    "text": "A draft keeps your rows without changing any stock. Finish it later from the list.",
+    "steps": [
+      "While building the adjustment, click Save as Draft.",
+      "To find it later, click Sidebar > Inventory, then Stock Adjustment.",
+      "Drafts show a Draft badge in the list.",
+      "Click the arrow at the end of the row, then Edit Stock Adjustment.",
+      "Finish it and click Save."
+    ],
+    "keywords": [
+      "draft adjustment",
+      "edit adjustment",
+      "unfinished adjustment"
+    ]
+  },
+  {
+    "title": "Adjust many products at once",
+    "page": "/management/inventory/stock-adjustment",
+    "text": "Add All puts every product you can see into the document. Filter first so you only add what you need.",
+    "steps": [
+      "Click Sidebar > Inventory, then Stock Adjustment.",
+      "Click New Stock Adjustment.",
+      "Filter the left panel by category, shelf, or search.",
+      "Click Add All. Every listed product moves to the right.",
+      "Type the correct quantities and the reason.",
+      "Click Save."
+    ],
+    "keywords": [
+      "whole category",
+      "bulk adjustment",
+      "add all products",
+      "adjust a shelf"
+    ]
+  },
+  {
+    "title": "Scan items into an adjustment",
+    "page": "/management/inventory/stock-adjustment",
+    "text": "You can scan barcodes straight into the editor. Each scan adds the product and jumps to its row.",
+    "steps": [
+      "Click Sidebar > Inventory, then Stock Adjustment.",
+      "Click New Stock Adjustment.",
+      "Scan the barcode. The product shows on the right.",
+      "Type the correct quantity. Scan the next one.",
+      "Add the reason and click Save."
+    ],
+    "keywords": [
+      "scan barcode",
+      "barcode scanner",
+      "scan product",
+      "scan to add"
+    ]
+  },
+  {
+    "title": "Review or delete a past adjustment",
+    "page": "/management/inventory/stock-adjustment",
+    "text": "Each adjustment stays in the list with its reference number and reason.",
+    "steps": [
+      "Open Sidebar > Inventory, then Stock Adjustment.",
+      "Search by reference number or reason.",
+      "Click the arrow at the end of a row, then View Stock Adjustment.",
+      "Select Delete Stock Adjustment to remove it.",
+      "Use Print & Export to print or export the list."
+    ],
+    "keywords": [
+      "view adjustment",
+      "delete adjustment",
+      "past adjustments",
+      "adjustment history",
+      "print adjustments",
+      "who adjusted"
+    ]
+  }
+]

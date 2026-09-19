@@ -1,0 +1,192 @@
+[
+  {
+    "title": "View today's sales",
+    "page": "/management/reporting?report=daily_sales",
+    "text": "Use this to check the sales for today. The dashboard shows the total for the selected day, while Daily Sales lists each day and Sales History shows each receipt.",
+    "steps": [
+      "Click Dashboard in the sidebar. Set the date range to today.",
+      "For a day-by-day list, click Sidebar > Reporting, then Daily Sales. Pick the dates and click Generate Report.",
+      "To see each receipt, click Point of Sale, then More Options, then View Sales History.",
+      "For one shift, print an X reading from Cashier Report on the register."
+    ],
+    "keywords": [
+      "view sales",
+      "view my sales",
+      "my sales",
+      "daily sales total",
+      "sales for today",
+      "check sales",
+      "see sales",
+      "how much did i sell",
+      "sales this week",
+      "sales this month",
+      "daily sales summary",
+      "kita",
+      "benta",
+      "halin",
+      "sales report today"
+    ]
+  },
+  {
+    "title": "Run a report",
+    "page": "/management/reporting",
+    "text": "Pick a report, set the filters, and generate it. The results open on screen so you can review, export, or print them.",
+    "steps": [
+      "Click Sidebar > Reporting.",
+      "Find the report you want in the list or by search.",
+      "Set the date range and any other filter that applies.",
+      "Click Generate Report. The results load on the page."
+    ],
+    "keywords": [
+      "run report",
+      "generate report",
+      "open report",
+      "view report",
+      "find report",
+      "search reports",
+      "report list",
+      "reports page"
+    ]
+  },
+  {
+    "title": "Export or print a report",
+    "page": "/management/reporting",
+    "text": "After a report loads, you can export it to Excel or PDF, or print it directly. The file name usually includes the date range.",
+    "steps": [
+      "Click Sidebar > Reporting. Pick the report and click Generate Report.",
+      "Use the buttons above the table to export as Excel, PDF, or print it.",
+      "On a phone, these actions are grouped in one Export or print menu.",
+      "The E-Journal is different. It downloads as a text file using Download TXT."
+    ],
+    "keywords": [
+      "export report",
+      "excel report",
+      "pdf report",
+      "print report",
+      "download report",
+      "save report",
+      "txt file"
+    ]
+  },
+  {
+    "title": "Choose the date range",
+    "page": "/management/reporting",
+    "text": "Use the date range to focus the report on the period you want. The default is usually today, but you can choose a preset or a custom range.",
+    "steps": [
+      "Click Sidebar > Reporting. Pick a report.",
+      "Click the period button in the filter bar.",
+      "Pick a preset, or choose a start date and end date on the calendar.",
+      "Some reports also let you set a From and To time.",
+      "Click Clear to go back to today. Reports like Low Stock Warning and Batch & Expiry do not use dates."
+    ],
+    "keywords": [
+      "previous month",
+      "yesterday",
+      "time of day",
+      "today only"
+    ]
+  },
+  {
+    "title": "Filter a report by product, cashier, customer, or terminal",
+    "page": "/management/reporting",
+    "text": "Most reports let you narrow the results by product, cashier, customer, supplier, or terminal. Leave a filter blank to include everything.",
+    "steps": [
+      "Click Sidebar > Reporting. Pick the report.",
+      "Look at the filter bar or the right panel, depending on your layout.",
+      "Pick a product, category, user, customer, supplier, or terminal.",
+      "Use Cash In / Cash Out to show only entries or only outflows.",
+      "Click Generate Report again after changing a filter."
+    ],
+    "keywords": [
+      "filter report",
+      "by cashier",
+      "by product",
+      "by customer",
+      "by supplier",
+      "by terminal",
+      "by category",
+      "one cashier",
+      "one product",
+      "cash in only"
+    ]
+  },
+  {
+    "title": "Favorite reports",
+    "page": "/management/reporting",
+    "text": "Star a report to keep it at the top of the list for quick access. Favorites are saved per branch.",
+    "steps": [
+      "Click Sidebar > Reporting.",
+      "Point to a report in the list and click the star.",
+      "Click the star again to remove it from Favorites.",
+      "Click Clear in the Favorites header to remove them all."
+    ],
+    "keywords": [
+      "favorite",
+      "favourite",
+      "pin report",
+      "star report",
+      "quick access",
+      "bookmark report",
+      "most used reports"
+    ]
+  },
+  {
+    "title": "Reports for all branches",
+    "page": "/management/reporting",
+    "text": "Use All Branch to view a report across every branch in the business. Not every report supports this, but many sales and summary reports do.",
+    "steps": [
+      "Click the branch name at the top of the page and choose All Branch. Owners only.",
+      "Click Reporting in the sidebar. Only the reports that work across branches are listed.",
+      "Run and export the report as usual.",
+      "Switch back to one branch to see the full list again."
+    ],
+    "keywords": [
+      "all branches report",
+      "combined report",
+      "whole business",
+      "consolidated"
+    ]
+  },
+  {
+    "title": "BIR reports and the E-Journal",
+    "page": "/management/reporting?report=e1_daily_transaction",
+    "text": "BIR reports appear only when the branch is marked BIR Registered. They include the E-1 reports, the E-Journal, and related summary and refund files.",
+    "steps": [
+      "Click Sidebar > Settings, then Business Details. Check that BIR Registered is on.",
+      "Click Sidebar > Reporting. Scroll to BIR Reports at the bottom of the list.",
+      "Open the report you need. Some previews are scrollable tables, while exports are still PDF or Excel.",
+      "The E-Journal downloads as a text file. Click Download TXT."
+    ],
+    "keywords": [
+      "bir report",
+      "e-1",
+      "e1",
+      "e-journal",
+      "ejournal",
+      "senior citizen report",
+      "pwd report",
+      "void report",
+      "refunded report"
+    ]
+  },
+  {
+    "title": "Z reading report",
+    "page": "/management/reporting?report=z_reading",
+    "text": "The Z reading report shows the end-of-day readings your terminals saved. The actual reading is made at the register, and this page is where you view or print it later.",
+    "steps": [
+      "Click Sidebar > Reporting.",
+      "Under Cash Management, click Z Reading.",
+      "Pick the date and click Generate Report. Each reading shows as a receipt.",
+      "Click Export Excel, Export PDF, or Print above it.",
+      "To run it automatically, click Sidebar > Settings, then General, and turn on Auto Z-Reading."
+    ],
+    "keywords": [
+      "z-reading",
+      "daily closing",
+      "reprint z",
+      "past z reading",
+      "auto z reading",
+      "closing report"
+    ]
+  }
+]

@@ -1,0 +1,238 @@
+[
+  {
+    "key": "business",
+    "title": "Business information",
+    "description": "Your store name, address, and contact number.",
+    "page": "/management/settings/information",
+    "intro": "This is what prints on your receipts and shows on your reports.",
+    "steps": [
+      "Click Sidebar > Settings, then Business Details.",
+      "Type your business name, TIN, address, and contact number.",
+      "Turn on VAT or BIR only if your store is registered for them.",
+      "Click Save. That clicks this step off your checklist."
+    ],
+    "locked": null,
+    "keywords": [
+      "business information",
+      "store address",
+      "tin number",
+      "register vat",
+      "register bir"
+    ]
+  },
+  {
+    "key": "hours",
+    "title": "Business hours",
+    "description": "What time your store opens and closes.",
+    "page": "/management/settings/general",
+    "intro": "The POS uses these to know when a business day starts and ends.",
+    "steps": [
+      "Click Sidebar > Settings, then General.",
+      "Scroll to Operating hours.",
+      "Set your opening and closing time. Tick the days you are open.",
+      "Click Save. Reports and the Z reading follow these hours."
+    ],
+    "locked": null,
+    "keywords": [
+      "business hours",
+      "operating hours",
+      "store hours",
+      "opening time",
+      "closing time",
+      "open days"
+    ]
+  },
+  {
+    "key": "products",
+    "title": "Add products",
+    "description": "Put in the items you sell.",
+    "page": "/management/products",
+    "intro": "Everything you sell lives on this page.",
+    "steps": [
+      "Click Sidebar > Products, then Product List.",
+      "Click Add Product. Type the name, barcode, cost, and price. Pick a category. Click Save.",
+      "Have many items? Click Manage, then Bulk Manage to type them in a spreadsheet.",
+      "Have a list already? Click Import Products to bring in an Excel or CSV file."
+    ],
+    "locked": null,
+    "keywords": [
+      "first product",
+      "product setup list"
+    ]
+  },
+  {
+    "key": "inventory",
+    "title": "Add inventory count",
+    "description": "Count how many of each item you have.",
+    "page": "/management/inventory/inventory-count",
+    "intro": "Tell the POS how many of each product you have on hand.",
+    "steps": [
+      "Click Sidebar > Inventory, then Inventory Count.",
+      "Click New Inventory Count.",
+      "Click each product on the left to add it. Or scan its barcode.",
+      "Type the counted quantity on the right.",
+      "Click Save. Stock is corrected to match your numbers."
+    ],
+    "locked": {
+      "pose": "thumbs-up-cloud",
+      "intro": "Inventory count is a Pro feature, so this page is locked on your current plan.",
+      "steps": [
+        "Start your free trial, or upgrade your plan, from the panel on this page.",
+        "Once Inventory unlocks, click New Inventory Count. Add the products you are counting.",
+        "Type the counted quantity for each one. Click Save."
+      ]
+    },
+    "keywords": [
+      "stock count",
+      "add inventory",
+      "starting stock",
+      "initial stock",
+      "physical count setup"
+    ]
+  },
+  {
+    "key": "payments",
+    "title": "Payment methods",
+    "description": "Cash, GCash, and Maya are ready. Add cards or bank transfer if you take them.",
+    "page": "/management/payment-methods",
+    "intro": "Cash, GCash, Maya, and QRPH are already set up for you.",
+    "steps": [
+      "Click Sidebar > Payment Methods.",
+      "Click Add Payment Method for card, bank transfer, or anything else you accept.",
+      "Type a name and pick its payment type. Click Save.",
+      "Use the switches to turn a method off instead of deleting it."
+    ],
+    "locked": null,
+    "keywords": [
+      "payment method",
+      "payment methods",
+      "add gcash",
+      "add maya",
+      "accept gcash"
+    ]
+  },
+  {
+    "key": "receipt",
+    "title": "Receipt format",
+    "description": "Put your logo on the receipt and pick a look.",
+    "page": "/management/settings/receipt",
+    "intro": "Make the receipt look like your store.",
+    "steps": [
+      "Click Sidebar > Settings, then Receipts & Reports.",
+      "Upload your logo. Choose where it sits on the receipt.",
+      "Pick a layout and check the preview.",
+      "Click Save. Your next sale prints with the new look."
+    ],
+    "locked": null,
+    "keywords": [
+      "receipt format",
+      "receipt logo",
+      "receipt look"
+    ]
+  },
+  {
+    "key": "team",
+    "title": "Add your team",
+    "description": "Create login accounts for your staff.",
+    "page": "/management/users",
+    "intro": "Each cashier and manager should have their own login.",
+    "steps": [
+      "Open Sidebar > Users & Security.",
+      "Click Add User and enter their name and login details.",
+      "Choose a role so each person can only access what they need.",
+      "Go to the Branches tab and select where they work. Click Save."
+    ],
+    "locked": null,
+    "keywords": [
+      "add team",
+      "add user",
+      "add users",
+      "cashier login",
+      "staff login",
+      "add employee",
+      "team member setup"
+    ]
+  },
+  {
+    "key": "printer",
+    "title": "Set up printer",
+    "description": "Have a receipt printer? Set it up on the cashier. No printer? Skip this.",
+    "page": "/cashier",
+    "intro": "Printer Setup lives on the cashier, since the printer sits at the register. No printer? Skip this step on the checklist.",
+    "steps": [
+      "Click Point of Sale in the sidebar. The register opens.",
+      "Click More Options, then Printer Setup.",
+      "Register this terminal if asked. Pick the paper width, 58mm or 80mm.",
+      "Click Test Print to check the cut and the margins. Click Save Settings."
+    ],
+    "locked": null,
+    "keywords": [
+      "set up printer",
+      "setup printer",
+      "printer setup",
+      "connect printer",
+      "install printer"
+    ]
+  },
+  {
+    "key": "suppliers",
+    "title": "Add your first supplier",
+    "description": "Who you buy stock from.",
+    "page": "/management/suppliers",
+    "intro": "Suppliers are who you buy stock from. Purchase orders and receiving start here.",
+    "steps": [
+      "Click Suppliers in the sidebar.",
+      "Click Add Suppliers. Type the name and contact details.",
+      "Click Save. The supplier can then be picked on a purchase order.",
+      "Later, click the arrow on a supplier row to see its purchase orders and products."
+    ],
+    "locked": null,
+    "keywords": [
+      "add supplier",
+      "add suppliers",
+      "first supplier",
+      "new supplier",
+      "add vendor"
+    ]
+  },
+  {
+    "key": "expenses",
+    "title": "Record your first expense",
+    "description": "Rent, utilities, wages, and other spending.",
+    "page": "/management/expenses",
+    "intro": "Expenses are what the store spends outside stock, like rent, utilities, and wages.",
+    "steps": [
+      "Click Expenses in the sidebar.",
+      "Click Add Expense. Pick a type, or add a new type if none fits.",
+      "Type the amount, the date, and a short note. Click Save.",
+      "The totals at the top and the dashboard update right away."
+    ],
+    "locked": null,
+    "keywords": [
+      "first expense",
+      "record rent"
+    ]
+  },
+  {
+    "key": "sale",
+    "title": "Make your first sale",
+    "description": "Sell anything on the cashier and you are done.",
+    "page": "/cashier",
+    "intro": "This is the screen your staff will use every day.",
+    "steps": [
+      "Click Point of Sale in the sidebar. The register opens.",
+      "Scan a barcode, or search a product, to add it to the cart.",
+      "Click Record Payment. Pick a payment method and type the amount tendered.",
+      "Confirm. The receipt prints and your setup checklist is complete."
+    ],
+    "locked": null,
+    "keywords": [
+      "first sale",
+      "checkout test",
+      "start selling",
+      "how to sell",
+      "test sale",
+      "first checkout"
+    ]
+  }
+]

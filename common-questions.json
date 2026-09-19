@@ -1,0 +1,162 @@
+[
+  {
+    "title": "How do I add products?",
+    "page": "/management/products",
+    "text": "Use the product list to add an item and save it to your inventory.",
+    "steps": [
+      "Click Sidebar > Products, then Product List.",
+      "Click Add Product.",
+      "Enter the product details and click Save."
+    ],
+    "keywords": [
+      "item setup",
+      "new item setup",
+      "create item",
+      "how to add stock item"
+    ]
+  },
+  {
+    "title": "How do I make a sale?",
+    "page": "/pos",
+    "text": "Open the register, add the items, and complete the payment to finish the sale.",
+    "steps": [
+      "Open the register or Point of Sale.",
+      "Add the products to the sale.",
+      "Choose the payment method and finish the transaction."
+    ],
+    "keywords": [
+      "make sale",
+      "new sale",
+      "sell product",
+      "cash sale"
+    ]
+  },
+  {
+    "title": "How do I add stock?",
+    "page": "/management/inventory",
+    "text": "Stock can be added through a purchase order, stock adjustment, or product quantity update.",
+    "steps": [
+      "Open the inventory or product list.",
+      "Select the item and update the quantity.",
+      "Save the change to add the stock."
+    ],
+    "keywords": [
+      "restock inventory",
+      "stock update",
+      "inventory quantity",
+      "how to restock"
+    ]
+  },
+  {
+    "title": "How do I make an end of day report?",
+    "page": "/cashier",
+    "text": "Run an end-of-day reading from the cashier report to review sales, cash, and totals for the day.",
+    "steps": [
+      "Open Cashier Report or End of Day.",
+      "Choose the reading you want to generate.",
+      "Review the totals and print or save the report."
+    ],
+    "keywords": [
+      "end of day summary",
+      "cashier close",
+      "z close report",
+      "day close"
+    ]
+  },
+  {
+    "title": "How do I add a cashier?",
+    "page": "/management/users",
+    "text": "Create a cashier profile and assign the user to the correct permissions and register.",
+    "steps": [
+      "Open Users & Security.",
+      "Create or edit the user.",
+      "Assign cashier access and save the account."
+    ],
+    "keywords": [
+      "cashier account",
+      "cashier login setup",
+      "register user",
+      "team access"
+    ]
+  },
+  {
+    "title": "How do I view reports?",
+    "page": "/management/reporting",
+    "text": "Open the reporting section to view sales, inventory, and cash summaries by day or period.",
+    "steps": [
+      "Click Sidebar > Reporting.",
+      "Choose the report you want to open.",
+      "Set the date range and review the results."
+    ],
+    "keywords": [
+      "view reports",
+      "sales report",
+      "dashboard reports",
+      "reporting"
+    ]
+  },
+  {
+    "title": "Sales today",
+    "page": "/dashboard",
+    "text": "This shows the sales recorded for the current day so you can check daily performance.",
+    "steps": [
+      "Open the dashboard or reporting screen.",
+      "Choose today or the current date.",
+      "Review the sales total and trend."
+    ],
+    "keywords": [
+      "day sales total",
+      "sales this day",
+      "sales summary check",
+      "sales total"
+    ]
+  },
+  {
+    "title": "Top selling products this month",
+    "page": "/dashboard",
+    "text": "See which items sold the most during the selected period.",
+    "steps": [
+      "Open the dashboard or report page.",
+      "Choose the month you want to review.",
+      "Check the top selling products list."
+    ],
+    "keywords": [
+      "top items this month",
+      "best sellers list",
+      "top selling monthly",
+      "popular products"
+    ]
+  },
+  {
+    "title": "Low stock products",
+    "page": "/management/inventory",
+    "text": "Low stock items need attention because inventory is running below the set minimum.",
+    "steps": [
+      "Open Inventory or Products.",
+      "Check the low stock list or inventory warning.",
+      "Restock the items that are running low."
+    ],
+    "keywords": [
+      "inventory below minimum",
+      "stock warning",
+      "items running low",
+      "inventory alert"
+    ]
+  },
+  {
+    "title": "Income statement this month",
+    "page": "/reporting",
+    "text": "The income statement summarizes revenue, expenses, and profit for the selected period.",
+    "steps": [
+      "Open Reporting.",
+      "Choose the income statement view.",
+      "Set the month and review the totals."
+    ],
+    "keywords": [
+      "income statement",
+      "profit report",
+      "monthly report",
+      "revenue and expense"
+    ]
+  }
+]

@@ -1,0 +1,167 @@
+[
+  {
+    "title": "Send stock to another branch",
+    "page": "/management/stock-transfer",
+    "text": "Create Transfer sends stock from the branch you are on to another branch. What happens next depends on your process setting.",
+    "steps": [
+      "Click Sidebar > Inventory, then Stock Transfer.",
+      "Click New Transfer, then Create Transfer.",
+      "Pick the branch you are sending to.",
+      "Click the products on the left. Type the quantities on the right.",
+      "Click Save. You cannot send more than you have on hand."
+    ],
+    "keywords": [
+      "stock transfer",
+      "send stock",
+      "transfer stock",
+      "move stock",
+      "create transfer",
+      "branch to branch",
+      "new transfer"
+    ]
+  },
+  {
+    "title": "Ask another branch for stock",
+    "page": "/management/stock-transfer",
+    "text": "Request Transfer asks another branch to send you stock. They check what they can send, ship it, and you receive it.",
+    "steps": [
+      "Click Sidebar > Inventory, then Stock Transfer.",
+      "Click New Transfer, then Request Transfer.",
+      "Pick the branch you are asking. Add the products and quantities.",
+      "Click Save. The request waits under the Requested tab until they review it.",
+      "If they send less, click the status label and pick Close Request to drop the rest."
+    ],
+    "keywords": [
+      "request transfer",
+      "request stock",
+      "ask for stock",
+      "pull stock",
+      "stock request"
+    ]
+  },
+  {
+    "title": "Approve, ship, or receive a transfer",
+    "page": "/management/stock-transfer",
+    "text": "Only one branch can act at a time. The branch being asked approves, the sender ships, and the receiver receives.",
+    "steps": [
+      "Click Sidebar > Inventory, then Stock Transfer.",
+      "Open the tab with a red number. Someone is waiting on you there.",
+      "Click the coloured status label on the row.",
+      "Pick Approve, Ship, Receive, or Reject. Reject asks for a reason.",
+      "To receive, open the transfer and click Receive Items. Type what arrived, then click Confirm Receipt."
+    ],
+    "keywords": [
+      "approve transfer",
+      "ship transfer",
+      "receive transfer",
+      "confirm shipment",
+      "confirm receipt",
+      "in transit",
+      "pending transfer",
+      "reject transfer"
+    ]
+  },
+  {
+    "title": "Choose how many steps a transfer needs",
+    "page": "/management/settings/stock-transfer",
+    "text": "An admin decides how each transfer should move through the process. Instant mode moves stock as soon as the transfer is saved.",
+    "steps": [
+      "Open Sidebar > Settings, then Stock Transfers.",
+      "Under Process Flow, choose a step set. Each card shows the steps it uses.",
+      "Instant Stock Transfer moves stock immediately when the transfer is saved. Other options add approval, shipping, or receiving steps.",
+      "For Instant mode, decide whether to show a confirmation prompt before each transfer.",
+      "Click Save. Transfers already in progress keep their current step."
+    ],
+    "keywords": [
+      "transfer process",
+      "instant transfer",
+      "transfer mode",
+      "approval step",
+      "skip approval",
+      "transfer settings",
+      "direct receive"
+    ]
+  },
+  {
+    "title": "Record a payment between branches",
+    "page": "/management/stock-transfer",
+    "text": "When transfer payments are enabled, the receiving branch records the payment and the sending branch confirms that the money was received.",
+    "steps": [
+      "Open Settings in the sidebar, then Stock Transfers. Turn on Enable transfer payments.",
+      "Open Inventory in the sidebar, then Stock Transfer.",
+      "On a received transfer, click the arrow at the end of the row, then Payments.",
+      "Type the amount, payment method, date, and reference. Click Save.",
+      "The sending branch opens the same Payments screen and clicks Confirm.",
+      "Only confirmed payments reduce the balance."
+    ],
+    "keywords": [
+      "transfer payment",
+      "pay for transfer",
+      "branch payment",
+      "transfer balance",
+      "confirm payment",
+      "inter-branch billing",
+      "enable transfer payments"
+    ]
+  },
+  {
+    "title": "Print a transfer document",
+    "page": "/management/stock-transfer",
+    "text": "Print PDF lets you generate the document you need for the current transfer step, such as a Transfer Order, Delivery Receipt, Receiving Report, or Picking List.",
+    "steps": [
+      "Open Sidebar > Inventory, then Stock Transfer.",
+      "Click the arrow at the end of the transfer row.",
+      "Choose Print PDF and select the document you want.",
+      "Print it or save it from the preview screen.",
+      "To hide prices from the driver, open Settings, then Stock Transfers, and turn off Show cost and total cost."
+    ],
+    "keywords": [
+      "print transfer",
+      "transfer pdf",
+      "delivery receipt",
+      "picking list",
+      "transfer order",
+      "hide cost on pdf"
+    ]
+  },
+  {
+    "title": "Change, cancel, or delete a transfer",
+    "page": "/management/stock-transfer",
+    "text": "Edit and Delete are only available before stock has moved. After stock has already moved, reject the transfer so a record remains.",
+    "steps": [
+      "Open Sidebar > Inventory, then Stock Transfer.",
+      "Click the arrow at the end of the row.",
+      "Choose Edit to change products or quantities, or Delete to remove it permanently.",
+      "Note: Once a transfer has been accepted, it cannot be edited or deleted."
+    ],
+    "keywords": [
+      "edit transfer",
+      "delete transfer",
+      "cancel transfer",
+      "wrong transfer",
+      "undo transfer",
+      "transfer by mistake"
+    ]
+  },
+  {
+    "title": "Why receiving changed my product cost",
+    "page": "/management/settings/stock-transfer",
+    "text": "When Update cost at the receiving branch is turned on, the system blends the old cost with the incoming cost. This changes the product cost, but not the selling price.",
+    "steps": [
+      "Open Sidebar > Settings, then Stock Transfers.",
+      "Under Receiving Branch Pricing, turn off Update cost at the receiving branch to stop this behavior.",
+      "Under Transfer Pricing, choose Unit Cost or Selling Price for new transfers.",
+      "Turn on Ask for price adjustment per item if you want to change the cost line by line.",
+      "Click Save."
+    ],
+    "keywords": [
+      "cost changed",
+      "receiving branch cost",
+      "weighted average",
+      "update cost",
+      "transfer price",
+      "price adjustment",
+      "margin negative"
+    ]
+  }
+]

@@ -1,0 +1,118 @@
+[
+  {
+    "title": "Set up a conversion rule",
+    "page": "/management/stock-conversion",
+    "text": "A conversion rule tells the system how one product becomes another, such as 1 case becoming 24 pieces. Saving the rule does not move stock yet.",
+    "steps": [
+      "Open Sidebar > Inventory, then Stock Conversion.",
+      "Click Add Conversion.",
+      "Choose the source product on the left and the target product on the right.",
+      "Type how many target units come from one source unit. Check the preview line.",
+      "Keep Active turned on, then click Save."
+    ],
+    "keywords": [
+      "stock conversion",
+      "add conversion",
+      "case to pieces",
+      "break down stock",
+      "repack",
+      "conversion rule",
+      "unit conversion",
+      "bulk to retail"
+    ]
+  },
+  {
+    "title": "Run a conversion",
+    "page": "/management/stock-conversion",
+    "text": "A conversion removes stock from the source product and adds it to the target product right away. The oldest batch is used first.",
+    "steps": [
+      "Open Sidebar > Inventory, then Stock Conversion.",
+      "Find the rule, then click the arrow at the end of the row and choose Convert.",
+      "Type the quantity to convert. The screen shows what you will receive and the stock before and after.",
+      "Add a note if needed.",
+      "Click Confirm. Stock moves immediately."
+    ],
+    "keywords": [
+      "convert stock",
+      "run conversion",
+      "break a case",
+      "open a box",
+      "convert now",
+      "split case",
+      "build up stock"
+    ]
+  },
+  {
+    "title": "Copy a rule to other branches",
+    "page": "/management/stock-conversion",
+    "text": "Each branch has its own conversion rules. The Apply to Other Branches option lets you copy the same rule to the branches you choose.",
+    "steps": [
+      "Open Sidebar > Inventory, then Stock Conversion.",
+      "Click Add Conversion or edit an existing rule.",
+      "Under Apply to Other Branches, click the branches you want to copy it to.",
+      "Click Save. Any branch without both products is skipped."
+    ],
+    "keywords": [
+      "apply to other branches",
+      "copy conversion",
+      "same rule every branch",
+      "share conversion"
+    ]
+  },
+  {
+    "title": "See past conversions",
+    "page": "/management/stock-conversion",
+    "text": "Conversion History lists every run of a rule. Date, reference, amounts on both sides, who did it, and the note.",
+    "steps": [
+      "Click Sidebar > Inventory, then Stock Conversion.",
+      "Click the arrow at the end of the rule row, then Conversion History.",
+      "Scroll down to load older runs.",
+      "Need the stock side? Open Stock History on the product. Look for a reference starting with SC."
+    ],
+    "keywords": [
+      "conversion history",
+      "who converted",
+      "past conversions",
+      "conversion log",
+      "sc reference",
+      "trace conversion"
+    ]
+  },
+  {
+    "title": "Pause, change, or remove a rule",
+    "page": "/management/stock-conversion",
+    "text": "Turn Active off to pause a rule. A rule that has been used cannot be deleted. It becomes Inactive instead.",
+    "steps": [
+      "Click Sidebar > Inventory, then Stock Conversion.",
+      "Click the arrow at the end of the rule row, then Edit.",
+      "Change the products, unit names, or amount. Or switch Active off.",
+      "Click Save. Past conversions do not change.",
+      "To remove an unused rule, pick Delete from the same menu."
+    ],
+    "keywords": [
+      "edit conversion",
+      "delete conversion",
+      "inactive rule",
+      "pause conversion",
+      "turn off conversion",
+      "remove rule"
+    ]
+  },
+  {
+    "title": "Convert will not run",
+    "page": "/management/stock-conversion",
+    "text": "Convert is blocked when the rule is Inactive, the source has too little stock, or you are on All Branches.",
+    "steps": [
+      "If the row says Inactive, click Edit and switch Active on.",
+      "Check the source on-hand quantity. Convert that amount or less."
+    ],
+    "keywords": [
+      "cannot convert",
+      "convert disabled",
+      "convert greyed out",
+      "not enough stock",
+      "inactive conversion",
+      "conversion error"
+    ]
+  }
+]

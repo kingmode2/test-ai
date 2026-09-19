@@ -1,0 +1,127 @@
+[
+  {
+    "title": "Create a price list",
+    "page": "/management/multi-price",
+    "text": "A price list is an extra price for the same item, such as Reseller or Employee. It appears as a new column in the table.",
+    "steps": [
+      "Click Sidebar > Products, then Price Lists.",
+      "Click New Price List, type a name, and click Save.",
+      "The new column starts empty. Fill it in only for the products that need it."
+    ],
+    "keywords": [
+      "price list",
+      "new price list",
+      "reseller price",
+      "employee price",
+      "wholesale price"
+    ]
+  },
+  {
+    "title": "Set prices for one product",
+    "page": "/management/multi-price",
+    "text": "Quick Edit lets you change all prices for one product in one window.",
+    "steps": [
+      "Click Products in the sidebar, then Price Lists.",
+      "Find the product. Use the search box or scan it.",
+      "Click the arrow at the end of the row, then Quick Edit.",
+      "Type each price, then click Save.",
+      "Retail is locked here. Change it from the Product List page."
+    ],
+    "keywords": [
+      "quick edit",
+      "set price",
+      "one product price",
+      "change tier price",
+      "edit price list price"
+    ]
+  },
+  {
+    "title": "Reprice many products at once",
+    "page": "/management/multi-price",
+    "text": "Bulk Edit Price Lists opens a table for changing prices across many products.",
+    "steps": [
+      "Click Products in the sidebar, then Price Lists.",
+      "Click Bulk Edit Price Lists in the top bar.",
+      "Type the new prices. Leaving a box empty removes that price; it does not set it to zero.",
+      "Click Save Changes. Nothing is saved until you do this."
+    ],
+    "keywords": [
+      "bulk edit prices",
+      "reprice",
+      "many prices",
+      "spreadsheet prices",
+      "mass price update"
+    ]
+  },
+  {
+    "title": "Copy prices from another branch",
+    "page": "/management/multi-price",
+    "text": "Import prices from another branch to update the products this branch also sells.",
+    "steps": [
+      "Click Products in the sidebar, then Price Lists.",
+      "Click Bulk Edit Price Lists, then Import, then From another branch.",
+      "Choose the branch to copy from, then confirm.",
+      "Click Save Changes to keep the copied prices."
+    ],
+    "keywords": [
+      "import from branch",
+      "same prices as main",
+      "another branch prices",
+      "sync prices"
+    ]
+  },
+  {
+    "title": "Import prices from a file",
+    "page": "/management/multi-price",
+    "text": "Download the price template, fill it in, then import it back. Products are matched by barcode, and only the prices change.",
+    "steps": [
+      "Click Products in the sidebar, then Price Lists.",
+      "Click Print & Export and download the price template.",
+      "Fill in a price for each barcode in the correct column.",
+      "Click Print & Export again and import the file. No products are created and stock is not changed."
+    ],
+    "keywords": [
+      "import prices",
+      "price template",
+      "excel prices",
+      "upload prices",
+      "csv prices"
+    ]
+  },
+  {
+    "title": "Use price lists at the register",
+    "page": "/management/settings/cashier",
+    "text": "Price lists appear at the register only when the branch has Wholesale & Multi-Price Tiers turned on.",
+    "steps": [
+      "Click Settings in the sidebar, then Cashier Settings.",
+      "Turn on Enable Wholesale & Multi-Price Tiers mode.",
+      "Choose the price tier setting: Ask for each item or One tier for the cart.",
+      "Click Save. The Wholesale Price field will also appear on the product form."
+    ],
+    "keywords": [
+      "enable wholesale",
+      "wholesale mode",
+      "price tier selection",
+      "cashier price list",
+      "tier not showing",
+      "retail wholesale toggle"
+    ]
+  },
+  {
+    "title": "Rename or delete a price list",
+    "page": "/management/multi-price",
+    "text": "In the left panel, a pencil icon renames the price list and a trash icon deletes it.",
+    "steps": [
+      "Click Products in the sidebar, then Price Lists.",
+      "Find the price list in the left panel.",
+      "Click the pencil to rename it or the trash icon to delete it.",
+      "Deleting removes that column from every product. This action cannot be undone."
+    ],
+    "keywords": [
+      "rename price list",
+      "delete price list",
+      "remove tier",
+      "price list column"
+    ]
+  }
+]

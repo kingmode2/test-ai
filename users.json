@@ -1,0 +1,163 @@
+[
+  {
+    "title": "Add a cashier or staff account",
+    "page": "/management/users",
+    "text": "A user is just a staff account. The form has three parts: User Details, Permissions, and Branches.",
+    "steps": [
+      "Click Sidebar > Users & Security.",
+      "Click Add Users.",
+      "In User Details, type the employee name, employee number, and hire date. Pick their role.",
+      "Choose how they will sign in: Tenant & PIN, or Email & Password.",
+      "Open the Permissions tab and choose what they are allowed to access.",
+      "Open the Branches tab and Click the branches where they work. Then click Save."
+    ],
+    "keywords": [
+      "new staff",
+      "create account",
+      "employee login",
+      "staff account"
+    ]
+  },
+  {
+    "title": "PIN login with the tenant code",
+    "page": "/management/users",
+    "text": "Staff can sign in with the tenant code and a six-digit PIN instead of using an email and password.",
+    "steps": [
+      "Click Sidebar > Users & Security.",
+      "Open the user account and choose the Tenant & PIN sign-in method. Set a six-digit PIN.",
+      "Each PIN must be different from other staff in the store. An email is still needed to recover the account.",
+      "Find the tenant code under Settings > Account & Subscription.",
+      "On the login page, choose Tenant & PIN and enter both values."
+    ],
+    "keywords": [
+      "pin login",
+      "tenant code",
+      "sign in with pin",
+      "6 digit pin",
+      "fast login",
+      "store code",
+      "quick sign in"
+    ]
+  },
+  {
+    "title": "Reset a password or PIN",
+    "page": "/management/users",
+    "text": "An admin can change a staff member's password or PIN from the user form. Staff who have an email address can also use Forgot Password on the login page.",
+    "steps": [
+      "Click Sidebar > Users & Security.",
+      "Double-click the user and open the Edit form.",
+      "In User Details, type a new password or a new six-digit PIN.",
+      "Leave the field empty if you want to keep the old one.",
+      "Or In login page, click Forgot Password. Type the email address and follow the instructions in the email.",
+      "Click Save."
+    ],
+    "keywords": [
+      "reset password",
+      "forgot password",
+      "change password",
+      "new pin",
+      "change pin",
+      "locked out",
+      "cannot log in"
+    ]
+  },
+  {
+    "title": "Change what a user can do",
+    "page": "/management/users",
+    "text": "A user's permissions come from their role. If you want to change permissions for one person only, use Special Access.",
+    "steps": [
+      "Click Sidebar > Users & Security.",
+      "Double-click the user and open the Permissions tab.",
+      "Change the role to load a different set of default permissions.",
+      "Click Edit under Special Access, type the supervisor password, and turn individual permissions on or off.",
+      "Click Save. If you change a role later, it does not update users that were already created from that role. You must edit those users one by one."
+    ],
+    "keywords": [
+      "permissions",
+      "change role",
+      "access",
+      "special access",
+      "restrict cashier",
+      "allow refund",
+      "supervisor password"
+    ]
+  },
+  {
+    "title": "Create a custom role",
+    "page": "/management/settings/roles",
+    "text": "Roles & Permissions stores the roles you can assign to staff. The built-in roles cannot be edited, but you can create your own.",
+    "steps": [
+      "Click Sidebar > Settings, then Roles & Permissions.",
+      "Click Add Role and type a name for the new role.",
+      "Turn each permission on or off based on what the staff member should be allowed to do.",
+      "Click Save. Then choose this new role on the user form."
+    ],
+    "keywords": [
+      "custom role",
+      "add role",
+      "manager role",
+      "supervisor role",
+      "roles and permissions",
+      "edit role"
+    ]
+  },
+  {
+    "title": "Let a user work in more branches",
+    "page": "/management/users",
+    "text": "Use the Branches tab to choose where a user can sign in. One user account can work in multiple branches.",
+    "steps": [
+      "Click Users & Security in the sidebar.",
+      "Double-click the user and open the Branches tab.",
+      "click each branch where they should be allowed to work.",
+      "Click Save. You can only assign branches that you are allowed to manage, unless you are the owner."
+    ],
+    "keywords": [
+      "assign branch",
+      "multiple branches",
+      "branch access",
+      "work in other branch",
+      "branches tab",
+      "transfer staff"
+    ]
+  },
+  {
+    "title": "User slots and limits",
+    "page": "/management/users",
+    "text": "A user slot is the permission that lets someone sign in. The slots are shared by the whole account, not by each branch.",
+    "steps": [
+      "Click Sidebar > Users & Security.",
+      "Look at the line above the list to see how many slots you have and how many are already used.",
+      "Click the arrow at the end of a row to give a user a slot or free up a slot.",
+      "If a slot is inactive, it means your plan has more users than allowed. The newest users will stop working first.",
+      "To buy more, click Sidebar > Settings, then Account & Subscription, then Add User Slots."
+    ],
+    "keywords": [
+      "user slot",
+      "user limit",
+      "no slot",
+      "slot inactive",
+      "max users",
+      "add more users"
+    ]
+  },
+  {
+    "title": "Deactivate or bring back a user",
+    "page": "/management/users",
+    "text": "Deleting a user does not remove them completely. It only turns them inactive so they can no longer sign in.",
+    "steps": [
+      "Click Sidebar > Users & Security.",
+      "Click the arrow at the end of the user row, then choose Delete.",
+      "If needed, Click Free up slot so another person can use that slot.",
+      "To bring the user back, set the filter to Inactive, click the arrow on their row, and choose Activate."
+    ],
+    "keywords": [
+      "deactivate user",
+      "delete user",
+      "disable account",
+      "reactivate",
+      "activate user",
+      "staff left",
+      "inactive user"
+    ]
+  }
+]

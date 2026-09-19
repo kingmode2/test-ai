@@ -1,0 +1,178 @@
+[
+  {
+    "title": "Find your way around Settings",
+    "page": "/management/settings",
+    "text": "Settings is grouped by topic, such as Business, Sales & Inventory, POS & Display, and Account & System. Each setting is saved per branch, and you may be asked for the admin password on first open.",
+    "steps": [
+      "Click Settings in the sidebar. Type the admin password if asked.",
+      "Click Don't ask again to skip that prompt on this branch.",
+      "Use the search box at the top to jump to a setting by name.",
+      "Or choose a group on the left and then open the page you need."
+    ],
+    "keywords": [
+      "settings menu",
+      "where is setting",
+      "settings groups",
+      "find setting",
+      "settings search",
+      "settings password",
+      "admin password",
+      "open settings"
+    ]
+  },
+  {
+    "title": "Business details and what prints on receipts",
+    "page": "/management/settings/information",
+    "text": "Business Details stores the shop name, address, TIN, owner, email, and phone number that appear on receipts and reports. Each branch keeps its own details.",
+    "steps": [
+      "Click Settings in the sidebar, then Business Details.",
+      "Fill in the fields you want to show on receipts and reports.",
+      "Click Save.",
+      "BIR, VAT, and permit details are read-only. Contact support to change them."
+    ],
+    "keywords": [
+      "business name",
+      "store name",
+      "business address",
+      "tin",
+      "owner name",
+      "contact number",
+      "company info",
+      "business details",
+      "shop email"
+    ]
+  },
+  {
+    "title": "Receipt template and logo",
+    "page": "/management/settings/receipt",
+    "text": "Use this page to change how receipts look. You can save more than one template, upload a logo, and choose which one is active.",
+    "steps": [
+      "Click Settings in the sidebar, then Receipts & Reports.",
+      "Stay on the Receipt tab.",
+      "Upload a logo, edit the header and footer text, and check the preview.",
+      "Type a name for the template and click Save.",
+      "Click Use to make it active, or Apply to all branches to copy it to every branch. BIR-registered stores keep the standard layout."
+    ],
+    "keywords": [
+      "receipt template",
+      "receipt header",
+      "receipt footer",
+      "thank you message",
+      "logo on receipt",
+      "receipt design",
+      "custom receipt",
+      "invoice pdf",
+      "upload logo"
+    ]
+  },
+  {
+    "title": "Report paper size, header, and page layout",
+    "page": "/management/settings/receipt?tab=reports",
+    "text": "Use Report Documents to control how printed reports look and how the Reporting page is laid out.",
+    "steps": [
+      "Click Settings in the sidebar, then Receipts & Reports.",
+      "Open the Report Documents tab.",
+      "Pick the paper size: Short, Long, or A4.",
+      "Choose a header style and accent colour, then pick Classic or Side panel for the Reporting page.",
+      "Click Save when you are done."
+    ],
+    "keywords": [
+      "report header",
+      "report paper",
+      "a4",
+      "long bond",
+      "short bond",
+      "report layout",
+      "filters on top",
+      "side panel",
+      "accent colour",
+      "report documents"
+    ]
+  },
+  {
+    "title": "Terminals and the serial number",
+    "page": "/management/settings/terminals",
+    "text": "A terminal is one register. Every payment is linked to the terminal that took it. Each terminal has its own serial number for BIR receipts.",
+    "steps": [
+      "Click Settings in the sidebar, then Terminals. Every register on this branch is listed.",
+      "Click Rename to change a terminal's name.",
+      "Click the menu at the end of a row to Deactivate, Activate, or Reset Terminal Data.",
+      "To set each serial number, click Settings, then Business Details. The first terminal's number is the branch default.",
+      "Receipt Number Length sets how many digits receipt numbers use."
+    ],
+    "keywords": [
+      "register",
+      "deactivate terminal",
+      "reset terminal",
+      "receipt number length",
+      "device"
+    ]
+  },
+  {
+    "title": "Back up your data",
+    "page": "/management/settings/backup",
+    "text": "Backup downloads a copy of your products, inventory, customers, transactions, and settings. A full cloud backup also runs on its own every day.",
+    "steps": [
+      "Click Settings in the sidebar, then Backup. Owners only.",
+      "Click Download Backup. Keep the file private.",
+      "Check the Daily schedule card to see when the automatic backup runs."
+    ],
+    "keywords": [
+      "backup",
+      "back up",
+      "download backup",
+      "copy of data",
+      "automatic backup",
+      "cloud backup",
+      "export database"
+    ]
+  },
+  {
+    "title": "Reset settings or wipe a branch",
+    "page": "/management/settings/reset",
+    "text": "Reset Settings puts preferences back to default and keeps all business data. Reset Branch Data deletes a branch's sales, products, and stock for good. It cannot be undone.",
+    "steps": [
+      "Click Settings in the sidebar, then Reset. Owners only.",
+      "Reset Settings only touches preferences like order, payment, and scale options.",
+      "For Reset Branch Data, click the branch. Download your products and daily sales first.",
+      "Type the confirmation phrase. Customers, users, branches, and settings are kept."
+    ],
+    "keywords": [
+      "reset",
+      "factory reset",
+      "wipe data",
+      "clear data",
+      "start over",
+      "delete all sales",
+      "reset branch",
+      "reset settings",
+      "go live"
+    ]
+  },
+  {
+    "title": "Subscription, plan, and user slots",
+    "page": "/management/account-subscription",
+    "text": "Account & Subscription shows each branch's plan, the next renewal, and your User Slots. Slots are shared across branches, so one person on many branches uses one slot.",
+    "steps": [
+      "Click Settings in the sidebar, then Account & Subscription. Owners only.",
+      "Click Manage plans to upgrade or renew a branch.",
+      "Click Start trial on a branch to try Pro. It is one trial per store.",
+      "Click Add User Slots when you cannot add more staff.",
+      "Recent invoices are listed at the bottom."
+    ],
+    "keywords": [
+      "subscription",
+      "plan",
+      "upgrade",
+      "renew",
+      "billing",
+      "trial",
+      "free trial",
+      "user slots",
+      "seats",
+      "cannot add user",
+      "invoice",
+      "account"
+    ]
+  }
+]

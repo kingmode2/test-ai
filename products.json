@@ -1,0 +1,142 @@
+[
+  {
+    "title": "Add a product",
+    "page": "/management/products",
+    "text": "Use Add Product to create one item in your product list. You need a name, barcode, cost, and selling price. The rest is optional.",
+    "steps": [
+      "Click Sidebar > Products, then Product List.",
+      "Click Add Product.",
+      "Under Product Info, type the name and barcode. Add an SKU if you use one.",
+      "Under Pricing, type the cost and selling price. The markup is filled in automatically.",
+      "Under Organization, choose the category, unit, and shelf.",
+      "Under Tax & Discounts, choose the tax. Under Stock, type the starting quantity if you have it.",
+      "Click Save at the bottom. The item will then appear in the list and at the register."
+    ],
+    "keywords": [
+      "add product",
+      "product setup",
+      "add items",
+      "create product",
+      "product form",
+      "sku"
+    ]
+  },
+  {
+    "title": "Import products from a file or another branch",
+    "page": "/management/products",
+    "text": "Import Products lets you add many items at once. You can upload an Excel or CSV file, or copy products from another branch.",
+    "steps": [
+      "Click Sidebar > Products, then Product List.",
+      "Click Import Products in the top bar.",
+      "Choose Upload file and pick your Excel or CSV file, or choose a branch to copy from.",
+      "Click Map columns and match each column in your file to a product field.",
+      "Click Review & import and check the preview.",
+      "Click Import. Nothing is saved until you confirm it."
+    ],
+    "keywords": [
+      "import",
+      "upload product",
+      "copy from branch",
+      "spreadsheet file"
+    ]
+  },
+  {
+    "title": "Edit many products at once",
+    "page": "/management/products",
+    "text": "Bulk Manage shows your products like a spreadsheet. You can update prices, costs, and names in one place.",
+    "steps": [
+      "Click Sidebar > Products, then Product List.",
+      "Click Manage, then Bulk Manage. This works best on a desktop screen.",
+      "Type directly into the cells. Changed rows are highlighted.",
+      "Click Save. Large lists are saved in batches. If one batch fails, your edits stay on screen so you can try again."
+    ],
+    "keywords": [
+      "bulk",
+      "edit many",
+      "mass update",
+      "many products",
+      "spreadsheet view"
+    ]
+  },
+  {
+    "title": "Categories",
+    "page": "/management/products",
+    "text": "Categories are product groups such as Drinks or Snacks. The same category list is shared across branches.",
+    "steps": [
+      "Click Sidebar > Products, then Product List.",
+      "Click Manage, then Categories.",
+      "Click Add to create a new category. Use the pencil to rename it or the trash icon to remove it.",
+      "Choose the category on each product form.",
+      "To filter the list, click a category in the left panel."
+    ],
+    "keywords": [
+      "category",
+      "categories",
+      "group products",
+      "drinks",
+      "snacks"
+    ]
+  },
+  {
+    "title": "Shelves and units",
+    "page": "/management/products",
+    "text": "A shelf tells you where an item is stored in the store. A unit tells you how it is sold, such as kilo, piece, or box.",
+    "steps": [
+      "Click Sidebar > Products, then Product List.",
+      "Click Manage, then Shelves & Units.",
+      "Add the shelves and units you use.",
+      "Choose them on each product form under Organization.",
+      "Use the All Shelves filter to view one shelf at a time."
+    ],
+    "keywords": [
+      "shelf",
+      "shelves",
+      "unit",
+      "uom",
+      "kilo",
+      "piece",
+      "box",
+      "measure"
+    ]
+  },
+  {
+    "title": "Edit or delete a product",
+    "page": "/management/products",
+    "text": "Each product row has a menu at the end. Prices are set per branch, so edits only affect the branch you are currently viewing.",
+    "steps": [
+      "Click Sidebar > Products, then Product List.",
+      "Find the product using the search box or by scanning its barcode.",
+      "Click the arrow at the end of the row.",
+      "Choose Edit, change the fields, and click Save.",
+      "Choose Delete to remove it. Confirm when asked.",
+      "Note: Deleting a product does not remove it from past sales. It only stops the item from being sold in the future."
+    ],
+    "keywords": [
+      "edit product",
+      "delete product",
+      "change price",
+      "update price",
+      "remove product",
+      "rename"
+    ]
+  },
+  {
+    "title": "Export or print the product list",
+    "page": "/management/products",
+    "text": "Print & Export lets you print what is on screen or save it as PDF or Excel. The import template is available in the same menu.",
+    "steps": [
+      "Click Sidebar > Products, then Product List.",
+      "Set your search and category filters first. The printout will match what you see on screen.",
+      "Click Print & Export in the top bar.",
+      "Choose Print, PDF, or Excel.",
+      "If you need the import template, pick it from the same menu."
+    ],
+    "keywords": [
+      "export",
+      "template",
+      "download list",
+      "print list",
+      "pdf list"
+    ]
+  }
+]

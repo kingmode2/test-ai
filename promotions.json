@@ -1,0 +1,160 @@
+[
+  {
+    "title": "Create a promotion",
+    "page": "/management/promotions",
+    "text": "A promotion is a deal the register applies automatically. The setup wizard has three steps.",
+    "steps": [
+      "Click Sidebar > Promotions.",
+      "Click Add Promotion.",
+      "Choose Type. Pick the kind of deal. This cannot be changed later.",
+      "Details. Enter a name, set the discount, and choose the products or categories.",
+      "Schedule & Branches. Set when it runs and which branches use it.",
+      "Click Save."
+    ],
+    "keywords": [
+      "add promotion",
+      "create promo",
+      "new deal",
+      "discount promo",
+      "buy one take one",
+      "promotion wizard"
+    ]
+  },
+  {
+    "title": "Kinds of promotion",
+    "page": "/management/promotions",
+    "text": "Each promotion type works for a different kind of deal. Product Discount is the simplest: it gives money off selected products.",
+    "steps": [
+      "Happy Hour runs only during set hours. Limited-Time Sale runs between two dates.",
+      "Product Discount, Category Discount, Buy 1 Take 1, Buy X Get Y, and Free Gift depend on what is in the cart.",
+      "Birthday and First Purchase are tied to one customer, so the cashier must choose the customer first.",
+      "Promo Code waits until the cashier types the code."
+    ],
+    "keywords": [
+      "promotion types",
+      "happy hour",
+      "limited time sale",
+      "product discount",
+      "buy 1 take 1",
+      "buy x get y",
+      "free gift",
+      "birthday",
+      "promo code"
+    ]
+  },
+  {
+    "title": "Schedule a promotion",
+    "page": "/management/promotions",
+    "text": "Set the date, day, and time together. The promotion only runs when all three match. Leave them empty and it runs all the time.",
+    "steps": [
+      "Click Sidebar > Promotions, then Add Promotion or edit a deal.",
+      "Go to the Schedule & Branches step.",
+      "Set a start and end date for the sale period.",
+      "Choose the days of the week to limit when it runs, such as weekends only.",
+      "Set a time window for the sales hours. If the end time is before the start time, it runs overnight.",
+      "Click Save."
+    ],
+    "keywords": [
+      "schedule promotion",
+      "weekend promo",
+      "promo hours",
+      "start date",
+      "end date",
+      "days of week",
+      "always"
+    ]
+  },
+  {
+    "title": "Turn promotions on at the register",
+    "page": "/management/settings/cashier",
+    "text": "Promotions only appear at the register when the branch has Enable Promotions turned on.",
+    "steps": [
+      "Click Sidebar > Settings, then Cashier Settings.",
+      "Find Enable Promotions under Checkout Behavior and turn it on.",
+      "Click Save. Repeat this for each branch that should run deals."
+    ],
+    "keywords": [
+      "enable promotions",
+      "promotions not working",
+      "promo not showing",
+      "cashier settings promotions",
+      "promotions off"
+    ]
+  },
+  {
+    "title": "Promotion is not applying",
+    "page": "/management/promotions",
+    "text": "Check the deal, branch, schedule, and cashier setting in that order.",
+    "steps": [
+      "Click Sidebar > Promotions. Is the Active switch on for the deal?",
+      "Is the branch selected in the Branches column?",
+      "Does the schedule include the current time?",
+      "Click Sidebar > Settings, then Cashier Settings. Is Enable Promotions turned on?",
+      "For Birthday and First Purchase, did the cashier choose the customer first?"
+    ],
+    "keywords": [
+      "promotion not applying",
+      "deal not firing",
+      "discount not showing",
+      "promo not working",
+      "why no discount"
+    ]
+  },
+  {
+    "title": "Promo codes and printed coupons",
+    "page": "/management/promotions",
+    "text": "A Promo Code deal only applies after the cashier types the code. You can also print a coupon and set a usage limit.",
+    "steps": [
+      "Click Sidebar > Promotions, then Add Promotion.",
+      "Choose Promo Code and type the code, such as WELCOME50.",
+      "Design the coupon in the same step. Set the usage limit in the final step, then click Save.",
+      "To print it, click the arrow at the end of the row and choose Print Coupon.",
+      "Each code can belong to only one promotion."
+    ],
+    "keywords": [
+      "coupon",
+      "voucher",
+      "print coupon",
+      "usage limit",
+      "code discount",
+      "flyer code"
+    ]
+  },
+  {
+    "title": "Pause, edit, or delete a promotion",
+    "page": "/management/promotions",
+    "text": "Use the Active switch to pause a deal. Pausing is safer than deleting because deleted promotions cannot be restored.",
+    "steps": [
+      "Click Sidebar > Promotions.",
+      "Turn the Active switch on the row on or off to pause or resume it.",
+      "Double-click the row or click the arrow at the end to Edit or Delete.",
+      "When two deals affect the same item, the one with the higher Priority number wins."
+    ],
+    "keywords": [
+      "pause promotion",
+      "stop promo",
+      "edit promotion",
+      "delete promotion",
+      "turn off deal",
+      "priority"
+    ]
+  },
+  {
+    "title": "Discount a whole category",
+    "page": "/management/promotions",
+    "text": "Create a promotion to discount every item in a category. The discount applies automatically at the register.",
+    "steps": [
+      "Click Sidebar > Promotions.",
+      "Click Add Promotion.",
+      "Choose Category Discount and set the discount amount.",
+      "Select the categories, set the schedule and branches, then click Save."
+    ],
+    "keywords": [
+      "category discount",
+      "discount per category",
+      "discount all drinks",
+      "category sale",
+      "per category"
+    ]
+  }
+]

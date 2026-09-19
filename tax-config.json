@@ -1,0 +1,130 @@
+[
+  {
+    "title": "Add a tax",
+    "page": "/management/settings/tax-config",
+    "text": "A tax has a name and a rate, like VAT 12%. Create it before adding products so each product can use it.",
+    "steps": [
+      "Open Sidebar > Settings, then Tax Configuration.",
+      "Click Add Tax.",
+      "Type the tax name and rate.",
+      "Choose Inclusive if the price already includes tax, or Exclusive if tax is added at checkout.",
+      "Click Save.",
+      "Open Products, then Product List, and assign this tax to any product that needs it."
+    ],
+    "keywords": [
+      "add tax",
+      "new tax",
+      "create tax",
+      "vat rate",
+      "gst rate",
+      "sales tax",
+      "tax rate",
+      "tax percent",
+      "set up tax"
+    ]
+  },
+  {
+    "title": "Inclusive or exclusive tax",
+    "page": "/management/settings/tax-config",
+    "text": "Inclusive tax means the price already includes tax. Exclusive tax means tax is added on top of the price when the customer checks out.",
+    "steps": [
+      "Open Sidebar > Settings, then Tax Configuration.",
+      "Click the tax and check the Tax Type field.",
+      "Choose Inclusive if your shelf prices already include tax. This is common in the Philippines.",
+      "Choose Exclusive if tax should be added to the price at checkout.",
+      "Click Save. Receipts already issued will not change."
+    ],
+    "keywords": [
+      "inclusive",
+      "exclusive",
+      "tax included",
+      "tax on top",
+      "price includes vat",
+      "added at checkout",
+      "difference between",
+      "tax type"
+    ]
+  },
+  {
+    "title": "Edit, switch off, or delete a tax",
+    "page": "/management/settings/tax-config",
+    "text": "Inactive taxes are kept but not applied to new sales. Taxes that come with BIR accreditation are locked.",
+    "steps": [
+      "Click Sidebar > Settings, then Tax Configuration.",
+      "Click the tax.",
+      "Switch Active off to stop applying it. Or change the rate.",
+      "Click Save.",
+      "Click Delete to remove a custom tax. A lock icon means the tax is fixed by your accreditation."
+    ],
+    "keywords": [
+      "edit tax",
+      "delete tax",
+      "disable tax",
+      "inactive tax",
+      "change rate",
+      "locked tax",
+      "cannot edit tax",
+      "remove tax"
+    ]
+  },
+  {
+    "title": "VAT-exempt, zero-rated, and non-VAT shops",
+    "page": "/management/settings/information",
+    "text": "A product with no tax picked is simply untaxed. VAT-Exempt and Zero-Rated are taxes at 0%, so receipts and BIR reports show them in the right column.",
+    "steps": [
+      "Click Sidebar > Settings, then Business Details.",
+      "Check the VAT Registered and BIR Registered switches. Store staff cannot change these. Contact support.",
+      "If VAT is on, click Products, then Product List. Pick VAT-able, VAT-Exempt, or Zero-Rated on each product.",
+      "A change to VAT registration re-tags every product in the branch. Keep the window open until it finishes."
+    ],
+    "keywords": [
+      "zero rated",
+      "non vat",
+      "not vat registered",
+      "exempt product",
+      "no tax",
+      "tax free product",
+      "vat registered",
+      "bir registered"
+    ]
+  },
+  {
+    "title": "Tax rules for government discounts",
+    "page": "/management/settings/charges?tab=discounts",
+    "text": "The five government discounts live in Charges & Discounts, not Tax Configuration. Each can back out the VAT and mark the item VAT-exempt, which BIR reports expect.",
+    "steps": [
+      "Click Sidebar > Settings, then Charges & Discounts.",
+      "Stay on the Discounts tab. Click the discount, like Senior Citizen.",
+      "Set the value and the Discount Tax Rule. Tax-Exempt replaces the tax with the VAT-Exempt rate.",
+      "Click Save. The cashier applies it from the Discount button on a sale."
+    ],
+    "keywords": [
+      "senior discount",
+      "sc pwd",
+      "national athlete",
+      "medal of valor",
+      "tax exempt discount"
+    ]
+  },
+  {
+    "title": "Tax categories, country, and priority",
+    "page": "/management/tax-config",
+    "text": "Tax Config is the full tax screen. It shows tax categories, rates, country settings, and priority. Priority only decides the order of taxes when more than one applies, and it does not change the amounts.",
+    "steps": [
+      "Click Sidebar > Settings, then Tax Configuration.",
+      "Choose PH or SG at the top to view that country's tax rules.",
+      "Add a tax category first, then add a rate under it.",
+      "For everyday updates, open Settings, then Tax Configuration. It is the simpler version of the same tax setup."
+    ],
+    "keywords": [
+      "tax config page",
+      "country tax",
+      "singapore gst",
+      "philippines vat",
+      "tax category",
+      "region code",
+      "multiple taxes",
+      "stacked tax"
+    ]
+  }
+]

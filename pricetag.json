@@ -1,0 +1,63 @@
+[
+  {
+    "title": "Print price tags",
+    "page": "/management/price-tag",
+    "text": "Price Tags prints small labels with the product name, price, and barcode. It does not change the product itself.",
+    "steps": [
+      "Click Products in the sidebar, then Price Tags.",
+      "Search for or scan a product to add it. Add it again to print one more label.",
+      "Set the number of copies to print. The box is beside the product.",
+      "Choose a layout in the middle and check the preview.",
+      "Click Print. The number on the button shows how many labels will print."
+    ],
+    "keywords": [
+      "price tag",
+      "label",
+      "sticker",
+      "shelf tag",
+      "barcode label",
+      "print tags"
+    ]
+  },
+  {
+    "title": "Label size and paper",
+    "page": "/management/price-tag",
+    "text": "Use the right panel to choose the paper type and set the size of each label.",
+    "steps": [
+      "Click Products in the sidebar, then Price Tags.",
+      "In the right panel, choose a sheet or a roll.",
+      "Set how many labels fit across and set the width and height of each label in mm.",
+      "Turn each label part on or off, set the text size, and choose the barcode type.",
+      "Click Reset to return all settings to default. Your selected products stay in the list."
+    ],
+    "keywords": [
+      "label size",
+      "paper size",
+      "roll",
+      "sheet",
+      "labels across",
+      "millimeter",
+      "mm"
+    ]
+  },
+  {
+    "title": "Labels print the wrong size",
+    "page": "/management/price-tag",
+    "text": "The browser print window can shrink or shift the page, which changes the label size.",
+    "steps": [
+      "Click Print on the Price Tags page.",
+      "In the print window, set Margins to None or Default.",
+      "Set Scale to 100 percent.",
+      "Check the paper preview. Nothing should run onto the next page."
+    ],
+    "keywords": [
+      "wrong size",
+      "cut off",
+      "too small",
+      "too big",
+      "margin",
+      "scale",
+      "not aligned"
+    ]
+  }
+]

@@ -1,0 +1,148 @@
+[
+  {
+    "title": "Record an expense",
+    "page": "/management/expenses",
+    "text": "Record money the shop spends, such as rent, power, or repairs. Each branch has its own expense list.",
+    "steps": [
+      "Click Sidebar > Expenses.",
+      "Click Add Expense.",
+      "Enter the expense name, type, date, and amount.",
+      "Add a supplier, invoice number, or receipt number if available.",
+      "Attach a receipt photo if needed, then click Save."
+    ],
+    "keywords": [
+      "add expense",
+      "record expense",
+      "new expense",
+      "expense entry",
+      "shop spending",
+      "rent",
+      "electricity",
+      "bills",
+      "money spent",
+      "log expense"
+    ]
+  },
+  {
+    "title": "Same expense on several dates",
+    "page": "/management/expenses",
+    "text": "Use one expense entry for multiple dates. A separate row is saved for each date.",
+    "steps": [
+      "Click Sidebar > Expenses.",
+      "Click Add Expense and enter the expense details.",
+      "In the Date field, select all dates for the expense.",
+      "Click Save. Each selected date appears in its own row."
+    ],
+    "keywords": [
+      "recurring expense",
+      "multiple dates",
+      "repeat expense",
+      "monthly expense",
+      "yearly expense",
+      "quarterly expense",
+      "weekly expense",
+      "several days",
+      "weekly"
+    ]
+  },
+  {
+    "title": "Expense types",
+    "page": "/management/expenses",
+    "text": "Expense types group expenses, such as Rent or Marketing. All branches share the same types.",
+    "steps": [
+      "Click Sidebar > Expenses.",
+      "Open the All Types dropdown in the top bar.",
+      "Click Add to create a type.",
+      "Use the pencil to rename a type or the bin to delete it.",
+      "You cannot delete a type that is still in use. Move those expenses to another type first.",
+      "Choose a type from the dropdown to show only those expenses."
+    ],
+    "keywords": [
+      "expense type",
+      "expense category",
+      "add type",
+      "rename type",
+      "delete type",
+      "marketing",
+      "utilities"
+    ]
+  },
+  {
+    "title": "Filter expenses by date",
+    "page": "/management/expenses",
+    "text": "Filter expenses by date. The totals update to match your selected dates.",
+    "steps": [
+      "Click Sidebar > Expenses.",
+      "Click Select Period in the top bar.",
+      "Choose a preset such as This Month, or enter a start and end date.",
+      "Use All Types or the search box to narrow the results."
+    ],
+    "keywords": [
+      "filter by date",
+      "expense date filter",
+      "this month",
+      "last month",
+      "last week",
+      "custom dates",
+      "expenses today"
+    ]
+  },
+  {
+    "title": "What the three totals mean",
+    "page": "/management/expenses",
+    "text": "Operating Expenses are your recorded expenses. COGS is the cost of products sold. Business Expenses is both totals combined.",
+    "steps": [
+      "Change the branch, dates, or type to update the totals.",
+      "COGS comes from sales, not the expense list. It can appear on a day with no recorded expense.",
+      "Products still in stock are not counted until they are sold.",
+      "Click the COGS card to open the full report."
+    ],
+    "keywords": [
+      "total expenses",
+      "cost of goods",
+      "business expenses",
+      "operating expenses",
+      "totals"
+    ]
+  },
+  {
+    "title": "Edit or delete an expense",
+    "page": "/management/expenses",
+    "text": "Edit an expense to change its details, or delete it permanently.",
+    "steps": [
+      "Click Sidebar > Expenses.",
+      "Find the expense using the search box or date filter.",
+      "Click the arrow at the end of the row.",
+      "Click Edit, make your changes, and click Save.",
+      "Or click Delete to remove the expense permanently."
+    ],
+    "keywords": [
+      "edit expense",
+      "delete expense",
+      "change amount",
+      "wrong amount",
+      "remove expense",
+      "correct expense",
+      "update expense",
+      "fix expense"
+    ]
+  },
+  {
+    "title": "Print or export expenses",
+    "page": "/management/expenses",
+    "text": "Print or export the expenses shown on screen as Print, PDF, or Excel.",
+    "steps": [
+      "Click Sidebar > Expenses.",
+      "Set the period, branch, and type filters.",
+      "Click Print & Export in the top bar.",
+      "Choose Print, PDF, or Excel."
+    ],
+    "keywords": [
+      "export expenses",
+      "print expenses",
+      "expense report",
+      "pdf",
+      "download expenses"
+    ]
+  }
+]

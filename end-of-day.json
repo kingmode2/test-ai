@@ -1,0 +1,229 @@
+[
+  {
+    "title": "The reading says my cash is over",
+    "page": "/cashier",
+    "text": "Cash is over when you count more money than the reading expects. This usually means some cash was added without recording it.",
+    "steps": [
+      "Check the opening float. Make sure it was recorded as Cash In.",
+      "Check that cash sales were not recorded as card, e-wallet, or credit.",
+      "Count only the drawer. Do not include petty cash or an old float.",
+      "Count the cash again by denomination. Compare it with Cash In Drawer on the slip and write down the reason."
+    ],
+    "keywords": [
+      "over",
+      "cash over",
+      "z reading over",
+      "y reading over",
+      "drawer over",
+      "sobra sa drawer",
+      "too much cash",
+      "more cash than expected",
+      "why is my z read over"
+    ]
+  },
+  {
+    "title": "The reading says my cash is short",
+    "page": "/cashier",
+    "text": "Cash is short when you count less money than the reading expects. This usually means cash left the drawer or too much change was given.",
+    "steps": [
+      "Check that all payouts, supplier payments, and petty cash were recorded as Cash Out under More Options > Cash-in/Cash-out.",
+      "Check that all cash refunds were recorded.",
+      "Check recent sales for an incorrect tendered amount or too much change.",
+      "If cash was removed after you counted, count the drawer again before generating the reading."
+    ],
+    "keywords": [
+      "short",
+      "cash short",
+      "z reading short",
+      "drawer short",
+      "missing cash",
+      "short ang pera",
+      "kulang ang cash",
+      "kulang sa drawer",
+      "shortage"
+    ]
+  },
+  {
+    "title": "How the reading works out the expected cash",
+    "page": "/cashier",
+    "text": "Expected Cash In Drawer = cash sales + Cash In - Cash Out. Over or short is the difference between your count and this amount.",
+    "steps": [
+      "Count cash sales only. Card, e-wallet, credit, and cheque payments are not included.",
+      "Voided sales and cash refunds are removed from the cash sales total.",
+      "Cash In and Cash Out are recorded under More Options > Cash-in/Cash-out on this register.",
+      "Cash already included in an earlier End of Day (Z) is not counted again."
+    ],
+    "keywords": [
+      "expected cash",
+      "cash in drawer",
+      "how is over short computed",
+      "over short formula",
+      "drawer computation",
+      "why this amount",
+      "cash count expected"
+    ]
+  },
+  {
+    "title": "The Y reading or cashier accountability will not print",
+    "page": "/cashier",
+    "text": "The reading is saved even when it does not print. Printing works only in the TinkerPRO desktop or tablet app.",
+    "steps": [
+      "In a web browser, click Download PDF when the reading is saved but does not print.",
+      "On a register, click Retry Print. Make sure the printer is on, has paper, and is connected.",
+      "Click More Options > Printer Setup. Make sure the paper width matches: 58mm and 80mm are different.",
+      "If it still does not print, open More Options > Cashier Report > History and print the reading again."
+    ],
+    "keywords": [
+      "y reading not printing",
+      "cashier accountability not printing",
+      "z reading not printing",
+      "reading did not print",
+      "cannot print y reading",
+      "cannot print z reading",
+      "reading no receipt",
+      "hindi nakapag print nag reading",
+      "end of day not printing"
+    ]
+  },
+  {
+    "title": "It says a reading already covers this window",
+    "page": "/cashier",
+    "text": "A Y or Z reading already exists for this time period on this register. You cannot create another one for the same period.",
+    "steps": [
+      "Check the message for the reading number and time period.",
+      "Open More Options > Cashier Report > History and print the existing reading.",
+      "To create a new reading, set From to the end of the last reading, then generate it.",
+      "Only a provider account can change or redo a saved reading. Contact support if it is incorrect."
+    ],
+    "keywords": [
+      "already covers",
+      "duplicate reading",
+      "reading already exists",
+      "same time period",
+      "y reading already generated",
+      "z reading already done",
+      "cannot generate again",
+      "reading refused"
+    ]
+  },
+  {
+    "title": "It says another reading is being generated",
+    "page": "/cashier",
+    "text": "Another reading is being created on this register. Wait until it finishes before creating a new one.",
+    "steps": [
+      "Wait a few seconds, then click Generate again.",
+      "Make sure nobody else is closing this register.",
+      "Check the History tab. If the reading is listed, print it instead of creating another one.",
+      "If the message keeps appearing, close and reopen the Cashier Report window."
+    ],
+    "keywords": [
+      "another reading",
+      "reading in progress",
+      "try again in a moment",
+      "reading busy",
+      "reading locked",
+      "wait for reading"
+    ]
+  },
+  {
+    "title": "I cannot take an X, Y, or Z reading",
+    "page": "/management/users",
+    "text": "X, Y, and Z readings have separate permissions. A cashier may have access to some readings but not others.",
+    "steps": [
+      "Click Sidebar > Users & Security. Open the staff member's Permissions tab.",
+      "Turn on X-Reading, Y-Reading, or Z-Reading as needed, then click Save.",
+      "Ask the staff member to sign out and sign in again.",
+      "A supervisor can approve the reading when the approval box appears.",
+      "To show readings from all cashiers and terminals, turn on View All Readings."
+    ],
+    "keywords": [
+      "no permission reading",
+      "cannot generate reading",
+      "reading permission denied",
+      "end of day button missing",
+      "cashier report locked",
+      "x reading permission",
+      "y reading permission",
+      "z reading permission"
+    ]
+  },
+  {
+    "title": "The reading totals look wrong or too low",
+    "page": "/cashier",
+    "text": "A reading shows sales for one register and time period. Check these settings if the total looks wrong.",
+    "steps": [
+      "Check the From and To dates. Earlier sales are on an earlier reading.",
+      "Check that you selected the correct register. Each register has its own reading.",
+      "For an X reading, turn on General to include all sales. Turn it off to see only your sales.",
+      "Open More Options > Terminal Receipts and clear any sale still waiting to sync."
+    ],
+    "keywords": [
+      "reading totals wrong",
+      "missing sales in reading",
+      "z reading too low",
+      "sales not in z reading",
+      "reading incomplete",
+      "reading missing transactions",
+      "kulang ang sales sa reading"
+    ]
+  },
+  {
+    "title": "The Z reading did not ask me to count the drawer",
+    "page": "/management/settings/cashier",
+    "text": "Y always asks for a cash count. Z asks only when this setting is on. X never asks because it does not close anything.",
+    "steps": [
+      "Click Settings > Cashier Settings.",
+      "In Cash & Shift, turn on Z Reading Requires Cash Count.",
+      "Click Save, then run the Z reading again. Count the cash by denomination when asked.",
+      "Without a count, the slip shows only the expected Cash In Drawer, not an over or short amount."
+    ],
+    "keywords": [
+      "no cash count",
+      "z reading no cash count",
+      "did not ask cash count",
+      "cash count missing",
+      "require cash count",
+      "denomination count"
+    ]
+  },
+  {
+    "title": "The cash out after my Y reading did not happen",
+    "page": "/cashier",
+    "text": "Force Cash Out removes the counted cash automatically when you close a Y reading. If it fails, record the cash out manually.",
+    "steps": [
+      "If cash out failed, open More Options > Cash-in/Cash-out.",
+      "Click Remove Cash, enter the amount you counted, and add a clear reason.",
+      "If automatic cash out never works, go to Settings > Cashier Settings and check Force Cash Out under Cash & Shift.",
+      "At the next shift, record the starting cash as Cash In."
+    ],
+    "keywords": [
+      "cash out after y",
+      "forced cash out",
+      "cash out failed",
+      "drawer not emptied",
+      "cash out not recorded",
+      "cash out could not be recorded",
+      "y reading cash out"
+    ]
+  },
+  {
+    "title": "Finding and reprinting a past reading",
+    "page": "/cashier",
+    "text": "Past readings stay on record. You can print them again or export them.",
+    "steps": [
+      "Click Point of Sale > More Options > Cashier Report > History.",
+      "Select the reading you want. Cashiers see their own readings unless View All Readings is on.",
+      "For readings from several days, click Reporting > Cash Management > Z Reading.",
+      "Print or export the reading. Reprinting does not change the figures."
+    ],
+    "keywords": [
+      "reprint reading",
+      "past reading",
+      "reading history",
+      "old z reading",
+      "find y reading",
+      "lost the slip",
+      "reprint accountability"
+    ]
+  }
+]

@@ -1,0 +1,203 @@
+[
+  {
+    "title": "Set up the receipt printer",
+    "page": "/cashier",
+    "text": "Set up the receipt printer from the register. Choose the printer, match the paper size, and test it.",
+    "steps": [
+      "Go to Point of Sale. The register opens.",
+      "Click More Options > Printer Setup.",
+      "On the Printers tab, select Receipt Printer and choose your printer. Add a Bluetooth or network printer by scanning or entering its IP address.",
+      "Set Paper Width to 58mm or 80mm to match the paper roll.",
+      "Click Test Print to check the receipt margins. Click Cash Drawer to test the drawer.",
+      "In Home, Turn Automatic Print on or off, then click Save Settings."
+    ],
+    "keywords": [
+      "printer",
+      "receipt printer",
+      "thermal",
+      "paper width",
+      "58mm",
+      "80mm",
+      "test print",
+      "auto print",
+      "not printing",
+      "Paano mag-setup ng printer",
+      "bluetooth printer",
+      "bluetooth"
+    ]
+  },
+  {
+    "title": "Register a terminal and its serial number",
+    "page": "/management/settings/terminals",
+    "text": "Each register uses a terminal. Set it up the first time you open the register. Sales are recorded under that terminal.",
+    "steps": [
+      "Go to Point of Sale.",
+      "When asked, choose Register as new terminal and enter a name, or choose Use an existing terminal.",
+      "To rename, deactivate, or reset a terminal,In Sidebar > Go to Settings > Terminals.",
+      "To add a serial number, In Sidebar > Go to Settings > Business Details. The first number prints on BIR receipts.",
+      "Use Terminals to view reading history or move Entity from another POS."
+    ],
+    "keywords": [
+      "terminal",
+      "register terminal",
+      "new terminal",
+      "this device",
+      "serial number",
+      "till",
+      "pos machine",
+      "rename terminal"
+    ]
+  },
+  {
+    "title": "Show the customer display on a second screen",
+    "page": "/management/settings/advertising",
+    "text": "Customer Display shows the cart and payment result on a second screen.",
+    "steps": [
+      "Go to Point of Sale > More Options > Customer Display.",
+      "Move the display window to the second monitor. On Android, connect the screen with HDMI or USB-C first.",
+      "To choose a layout, go to Settings > Customer Display > Customer Display tab.",
+      "Set the cart position and size. Choose whether to show the customer name, order total, and payment confirmation.",
+      "Click Save."
+    ],
+    "keywords": [
+      "customer display",
+      "second screen",
+      "second monitor",
+      "customer facing",
+      "customer screen",
+      "dual screen",
+      "display layout"
+    ]
+  },
+  {
+    "title": "Advertising images and videos on the customer display",
+    "page": "/management/settings/advertising",
+    "text": "When no sale is in progress, the customer display shows your uploaded pictures and videos.",
+    "steps": [
+      "Click Sidebar >Settings > Customer Display.",
+      "Open the Advertisement Display tab.",
+      "Click Upload Advertising Files and add PNG, JPG, GIF, MP4, WebM, or MOV files.",
+      "Choose whether to rotate all files or show one file only.",
+      "Set the display time, transition, shuffle, and video sound, then click Save."
+    ],
+    "keywords": [
+      "advertising",
+      "ads",
+      "advertisement",
+      "carousel",
+      "slideshow",
+      "promo images",
+      "upload image",
+      "upload video",
+      "video ads",
+      "idle screen"
+    ]
+  },
+  {
+    "title": "Change the cashier layout and theme",
+    "page": "/management/settings/theme",
+    "text": "Appearance controls the theme and logo. Cashier Layout controls the register design and buttons.",
+    "steps": [
+      "Go to Settings > Appearance.",
+      "Choose the theme mode, brand colour, and cashier logo.",
+      "Under Cashier Layout, choose a layout and click Customize Cashier Theme.",
+      "Adjust the buttons, cart columns, row height, totals, and shortcuts.",
+      "Click Save. To use the design in every branch, click Apply & Sync to All Branches."
+    ],
+    "keywords": [
+      "cashier theme",
+      "cashier layout",
+      "till layout",
+      "paano mag add ng logo",
+      "Paano mag change the theme",
+      "customize buttons",
+      "dark mode",
+      "brand colour",
+      "cashier logo",
+      "appearance"
+    ]
+  },
+  {
+    "title": "Force cash in, cash out, and the Z cash count",
+    "page": "/management/settings/cashier",
+    "text": "These settings control the cashier's opening cash, cash out, and drawer counts.",
+    "steps": [
+      "Go to Settings > Cashier Settings > Cash & Shift.",
+      "Turn on Force Cash In to require opening cash before selling, unless the last reading was run.",
+      "Turn on Force Cash Out to require cashing out before the End Mid (Y) reading.",
+      "Turn on Z Reading Requires Cash Count to require a drawer count before the Z reading. The Y reading always requires a count.",
+      "Click Save."
+    ],
+    "keywords": [
+      "force cash in",
+      "force cash out",
+      "require cash in",
+      "cash count",
+      "shift rules",
+      "opening drawer",
+      "Paano mag off the force cash in",
+      "Paano mag off the force cash out",
+      "closing drawer"
+    ]
+  },
+  {
+    "title": "Cart and discount rules for the register",
+    "page": "/management/settings/cashier",
+    "text": "Cashier Settings controls the cart, discounts, and promotions.",
+    "steps": [
+      "Go to Settings > Cashier Settings.",
+      "Turn on Merge Identical Items to combine repeated scans.",
+      "Choose whether new items appear at the top or bottom.",
+      "Turn on Ask Before Removing Product or Require Reason to Clear Cart if needed.",
+      "Set the discount type, manager approval, and discount limit.",
+      "Turn on Enable Promotions to use promotions at the register.",
+      "Click Save."
+    ],
+    "keywords": [
+      "merge identical",
+      "combine items",
+      "ask before removing",
+      "reason to clear",
+      "discount limit",
+      "promotions"
+    ]
+  },
+  {
+    "title": "Stock rules at the register",
+    "page": "/management/settings/cashier",
+    "text": "These settings control which stock a sale uses and what warnings the cashier sees.",
+    "steps": [
+      "Go to Settings > Cashier Settings > Stock at the Register.",
+      "Turn on Prevent Negative Inventory to stop overselling.",
+      "Turn on expiry alerts and choose how many days before expiry to show a warning.",
+      "Choose which stock source to use and how stock is deducted.",
+      "Click Save."
+    ],
+    "keywords": [
+      "prevent negative",
+      "negative stock",
+      "oversell",
+      "out of stock",
+      "expiry alert",
+      "fifo",
+      "deduction method"
+    ]
+  },
+  {
+    "title": "Choose how a sale uses stock",
+    "page": "/management/settings/cashier",
+    "text": "The stock source and deduction method decide which stock is used when a sale is made.",
+    "steps": [
+      "Go to Settings > Cashier Settings > Stock at the Register.",
+      "Choose the stock source for sales.",
+      "Choose the deduction method, such as FIFO, if available.",
+      "Click Save and check the setting before making a sale."
+    ],
+    "keywords": [
+      "choose stock source",
+      "sale stock source",
+      "fifo stock rule",
+      "stock deduction settings"
+    ]
+  }
+]

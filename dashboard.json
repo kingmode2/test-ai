@@ -1,0 +1,153 @@
+[
+  {
+    "title": "Read the top cards",
+    "page": "/management/dashboard",
+    "text": "Total Sales is collected money after change and refunds. Net Profit is sales minus product costs and expenses. Cancelled sales are not included.",
+    "steps": [
+      "Click Sidebar > Dashboard.",
+      "Point to a card's info icon to see what it includes.",
+      "The arrow compares the card with the previous period.",
+      "Expenses come from the Expenses page. COGS means product cost.",
+      "Click Low Stock, No Stock, Near Expiry, or Expired to open that inventory list."
+    ],
+    "keywords": [
+      "total sales",
+      "net profit",
+      "cogs",
+      "expenses card",
+      "dashboard cards",
+      "what does total sales mean",
+      "vs prev period",
+      "compared",
+      "low stock card",
+      "near expiry"
+    ]
+  },
+  {
+    "title": "Change the dashboard period",
+    "page": "/management/dashboard",
+    "text": "Choose a period for all dashboard cards and charts. The default is the last 7 days.",
+    "steps": [
+      "Click Sidebar > Dashboard.",
+      "Click Date Period and choose a preset or custom date range.",
+      "Click Clear to view all time.",
+      "Use the arrows on the monthly chart to change years.",
+      "Click Refresh to show the latest sales."
+    ],
+    "keywords": [
+      "dashboard date",
+      "dashboard period",
+      "dashboard time range",
+      "last 7 days",
+      "all time",
+      "change dates",
+      "refresh dashboard",
+      "this year"
+    ]
+  },
+  {
+    "title": "Charts and top product lists",
+    "page": "/management/dashboard",
+    "text": "The dashboard shows sales by day, hour, and payment method. Product lists show the top products.",
+    "steps": [
+      "Click Sidebar > Dashboard.",
+      "Change the number beside a list to show more or fewer products.",
+      "Turn on Hide 0-sale days to hide days when the store was closed.",
+      "Click View full report to open the full report in Reporting."
+    ],
+    "keywords": [
+      "daily sales trend",
+      "hourly sales",
+      "payment breakdown",
+      "revenue leaders",
+      "fast moving",
+      "profit drivers",
+      "top item chart",
+      "chart",
+      "full report",
+      "best movers"
+    ]
+  },
+  {
+    "title": "Payables and receivables",
+    "page": "/management/dashboard",
+    "text": "Payables is what you owe suppliers. Receivables is what customers owe you. The dashboard groups these balances by age: current, 31-60, 61-90, and over 90 days.",
+    "steps": [
+      "Click Sidebar > Dashboard.",
+      "Switch between the Payables and Receivables tabs.",
+      "Click View Payables to open Suppliers.",
+      "Click View Receivables to open Customers."
+    ],
+    "keywords": [
+      "payables",
+      "owed",
+      "customer balances",
+      "aging",
+      "overdue",
+      "supplier balance",
+      "what i owe"
+    ]
+  },
+  {
+    "title": "Print the dashboard",
+    "page": "/management/dashboard",
+    "text": "Print the dashboard as a PDF.",
+    "steps": [
+      "Click Sidebar > Dashboard.",
+      "Choose the period to print.",
+      "On a computer, click Print Dashboard.",
+      "In the preview, print or download the PDF."
+    ],
+    "keywords": [
+      "print dashboard",
+      "dashboard pdf",
+      "save dashboard",
+      "share dashboard",
+      "dashboard report",
+      "snapshot"
+    ]
+  },
+  {
+    "title": "Getting Started checklist",
+    "page": "/management/dashboard",
+    "text": "The Getting Started checklist shows the setup tasks for your store. Tasks are checked off as you complete them.",
+    "steps": [
+      "Click Sidebar > Dashboard.",
+      "Click the Getting Started checklist at the top right.",
+      "Click Start on a task to open its setup page.",
+      "Click Skip on the printer task if you do not need it.",
+      "Click X to hide the checklist. To start over, click Settings > Reset before going live."
+    ],
+    "keywords": [
+      "getting started",
+      "checklist",
+      "setup steps",
+      "first steps",
+      "onboarding",
+      "hide checklist",
+      "dismiss checklist",
+      "skip step"
+    ]
+  },
+  {
+    "title": "All-branch dashboard",
+    "page": "/management/dashboard",
+    "text": "Use All Branch to see sales and performance for every branch in one dashboard.",
+    "steps": [
+      "Owners: click the branch name at the top and choose All Branch.",
+      "Click Dashboard in the sidebar.",
+      "Review the Branch Performance table and Top Selling Categories.",
+      "Use Quick Actions to add a branch, transfer stock, or open a report.",
+      "Choose one branch again to return to its full dashboard."
+    ],
+    "keywords": [
+      "all branch dashboard",
+      "branch performance",
+      "top selling categories",
+      "quick actions",
+      "every branch",
+      "top performing branch",
+      "combined dashboard"
+    ]
+  }
+]

@@ -1,0 +1,112 @@
+[
+  {
+    "title": "Add a supplier",
+    "page": "/management/suppliers",
+    "text": "A supplier is a business you buy stock from. Add them here before creating a purchase order.",
+    "steps": [
+      "Open Sidebar > Suppliers.",
+      "Click Add Suppliers.",
+      "Type the supplier name. Contact details, email, and address are optional.",
+      "Set VAT if the supplier charges it, and note whether prices already include VAT.",
+      "Click Save. The supplier will appear in the supplier list when you create a purchase order."
+    ],
+    "keywords": [
+      "vendor",
+      "distributor",
+      "where i buy stock",
+      "supplier vat"
+    ]
+  },
+  {
+    "title": "See what you ordered and still owe a supplier",
+    "page": "/management/suppliers",
+    "text": "View Purchase Orders shows all orders for that supplier, including the balance and the total still unpaid.",
+    "steps": [
+      "Open Sidebar > Suppliers.",
+      "Click the arrow at the end of the supplier row.",
+      "Choose View Purchase Orders.",
+      "Check the Unpaid Orders total and the balance for each order.",
+      "Click Record Payment on an order to log money you have paid."
+    ],
+    "keywords": [
+      "unpaid orders",
+      "supplier purchase orders",
+      "payable",
+      "supplier debt"
+    ]
+  },
+  {
+    "title": "See a supplier's products and stock",
+    "page": "/management/suppliers",
+    "text": "View Products shows every product linked to that supplier and how much stock is still available.",
+    "steps": [
+      "Open Sidebar > Suppliers.",
+      "Click the arrow at the end of the supplier row, then View Products.",
+      "PO Stock is the stock left from their purchase orders. Other Stock came from a different source.",
+      "Click View on a row to trace where that stock came from.",
+      "Click Export to send the list to Excel."
+    ],
+    "keywords": [
+      "supplier products",
+      "items from supplier",
+      "supplier stock",
+      "what they delivered",
+      "po stock",
+      "other stock"
+    ]
+  },
+  {
+    "title": "Edit a supplier or stop buying from them",
+    "page": "/management/suppliers",
+    "text": "Set a supplier to Inactive when you no longer buy from them. Their old purchase orders stay in the system.",
+    "steps": [
+      "Open Sidebar > Suppliers.",
+      "Double-click the row, or click the arrow at the end of the row and choose Edit.",
+      "Update the details, or change Status to Inactive.",
+      "Click Save.",
+      "Delete is only available for suppliers with no purchase orders. Otherwise, use Inactive."
+    ],
+    "keywords": [
+      "edit supplier",
+      "inactive supplier",
+      "delete supplier",
+      "stop using supplier",
+      "supplier status",
+      "cannot delete supplier"
+    ]
+  },
+  {
+    "title": "Print or export the supplier list",
+    "page": "/management/suppliers",
+    "text": "Print & Export lets you print the supplier list or save it as a PDF or Excel file.",
+    "steps": [
+      "Open Sidebar > Suppliers.",
+      "Use the search box first if you only want a specific group of suppliers.",
+      "Click Print & Export and choose Print, PDF, or Excel."
+    ],
+    "keywords": [
+      "export suppliers",
+      "print suppliers",
+      "supplier list"
+    ]
+  },
+  {
+    "title": "Supplier reports",
+    "page": "/management/reporting",
+    "text": "Reporting includes three supplier reports: Supplier Payment Status, Items Purchased by Supplier, and Items Sold by Supplier.",
+    "steps": [
+      "Open Sidebar > Reporting.",
+      "Type Supplier in the search box.",
+      "Payment Status shows which supplier balances are paid or unpaid.",
+      "Items Purchased shows what you bought from each supplier. Items Sold shows how their products sold.",
+      "Choose a report, set the date range, and click Generate Report."
+    ],
+    "keywords": [
+      "supplier report",
+      "payment status",
+      "items purchased by supplier",
+      "items sold by supplier",
+      "supplier sales"
+    ]
+  }
+]

@@ -1,0 +1,121 @@
+[
+  {
+    "title": "See who did what",
+    "page": "/management/activitylogs",
+    "text": "Activity Logs shows what happened in your shop, who did it, and when. You cannot edit or delete these records.",
+    "steps": [
+      "Click Sidebar > Activity Logs.",
+      "The newest entries appear first. Scroll down to load older entries.",
+      "Use the colored dots to identify the action: green means added, blue means edited, red means removed, and amber means signed out."
+    ],
+    "keywords": [
+      "activity log",
+      "audit trail",
+      "who changed",
+      "who deleted",
+      "Check logs",
+      "history",
+      "track changes",
+      "staff activity",
+      "sign in history"
+    ]
+  },
+  {
+    "title": "Find one entry",
+    "page": "/management/activitylogs",
+    "text": "Search Activity Logs by user, product, action, or date.",
+    "steps": [
+      "Click Sidebar > Activity Logs.",
+      "Type a name, product, action, or date in the search box.",
+      "Use the User and Type filters to narrow the results.",
+      "Click Refresh to see the latest entries."
+    ],
+    "keywords": [
+      "search log",
+      "find entry",
+      "search activity",
+      "look up change",
+      "find who",
+      "refresh logs"
+    ]
+  },
+  {
+    "title": "Check one staff member or one shift",
+    "page": "/management/activitylogs",
+    "text": "Filter Activity Logs by staff member, log type, and date.",
+    "steps": [
+      "Click Sidebar > Activity Logs.",
+      "Under All Users, choose a staff member.",
+      "Under All Logs, choose Management for office changes or Cashier for register activity.",
+      "Click Select Period and choose a preset or enter a start and end date."
+    ],
+    "keywords": [
+      "one user",
+      "staff member",
+      "cashier activity",
+      "single shift",
+      "one logs",
+      "logs today",
+      "logs yesterday",
+      "logs this week",
+      "logs this month",
+      "logs last week",
+      "logs last month",
+      "logs this year",
+      "logs last year",
+      "logs custom range",
+      "logs date range",
+      "logs start date",
+      "logs end date",
+      "logs from date",
+      "filter by user",
+      "management logs",
+      "cashier logs",
+      "select period",
+      "one day"
+    ]
+  },
+  {
+    "title": "Download the history",
+    "page": "/management/activitylogs",
+    "text": "Download all records that match your search and filters.",
+    "steps": [
+      "Click Sidebar > Activity Logs.",
+      "Set the user, type, and date filters you need.",
+      "Click Download above the activity list.",
+      "Choose Export as Excel or Download as Text."
+    ],
+    "keywords": [
+      "download log",
+      "export log",
+      "excel log",
+      "text file",
+      "download history",
+      "export history",
+      "activity excel",
+      "activity text",
+      "download activity logs",
+      "save history",
+      "export activity"
+    ]
+  },
+  {
+    "title": "Logs for another branch or all branches",
+    "page": "/management/activitylogs",
+    "text": "View activity from one branch or all branches.",
+    "steps": [
+      "Click the branch name at the top of the page and choose a branch or All Branch.",
+      "Click Sidebar > Activity Logs."
+    ],
+    "keywords": [
+      "other branch",
+      "all branches",
+      "all branch",
+      "branch history",
+      "branch tag",
+      "affected records",
+      "bulk change",
+      "many rows"
+    ]
+  }
+]

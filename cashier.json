@@ -1,0 +1,426 @@
+[
+  {
+    "title": "Open the register with a cash in",
+    "page": "/cashier",
+    "text": "Cash In records the money placed in the drawer at the start of a shift.",
+    "steps": [
+      "Go to Point of Sale to open the register.",
+      "Click More Options > Cash-in/Cash-out.",
+      "Click Add Cash and enter the amount and reason.",
+      "Click Save. The entry appears in the Records tab."
+    ],
+    "keywords": [
+      "cash in",
+      "opening cash",
+      "float",
+      "starting cash",
+      "open register",
+      "open drawer",
+      "petty cash",
+      "Paano mag cash in",
+      "start shift"
+    ]
+  },
+  {
+    "title": "Make a sale",
+    "page": "/cashier",
+    "text": "Add products to the cart, check the items and quantities, then take payment.",
+    "steps": [
+      "Go to Point of Sale to open the register.",
+      "Scan a barcode, or search for a product in the search bar and press Enter to add it.",
+      "To change the quantity, select the cart item and click Quantity.",
+      "To remove an item, select it and click Delete. Use Clear All to empty the cart.",
+      "Click Payment when the cart is ready."
+    ],
+    "keywords": [
+      "sale",
+      "sell",
+      "scan",
+      "Delete item",
+      "barcode",
+      "add item",
+      "add to cart",
+      "search product",
+      "quantity",
+      "remove item",
+      "clear cart"
+    ]
+  },
+  {
+    "title": "Give a discount, including Senior Citizen or PWD",
+    "page": "/cashier",
+    "text": "Apply a percentage or fixed discount to one item or the whole cart. Senior Citizen and PWD discounts come from the selected customer.",
+    "steps": [
+      "Select a cart item for an item discount, or select nothing for a cart discount.",
+      "Click Discount.",
+      "Choose Percentage or Fixed Amount, enter the value, and click Apply.",
+      "If the discount exceeds the store limit, a manager must approve it with a password.",
+      "For Senior Citizen or PWD, click Customer and select the person. The discount applies automatically.",
+      "To set up customer types or change their rates, go to Settings > Charges & Discounts. Update the customer type on the Customers page.",
+      "Make sure the product is eligible for the discount. The Store cannot change government discount rates."
+    ],
+    "keywords": [
+      "discount",
+      "item discount",
+      "cart discount",
+      "percent off",
+      "senior citizen",
+      "pwd",
+      "disability",
+      "Paano mag discount",
+      "manager approval"
+    ]
+  },
+  {
+    "title": "Select a customer and use loyalty points",
+    "page": "/cashier",
+    "text": "Select a customer to apply their discounts, points, and credit to the sale.",
+    "steps": [
+      "On the register, click Customer.",
+      "Search for the customer by name or scan their loyalty card.",
+      "Click Points to view their points and balance.",
+      "At payment, choose Points/Balance to use their points.",
+      "The customer earns points automatically after the sale is paid."
+    ],
+    "keywords": [
+      "customer",
+      "select customer",
+      "loyalty",
+      "loyalty balance",
+      "view points",
+      "use points",
+      "member",
+      "load balance",
+      "add loyalty customer"
+    ]
+  },
+  {
+    "title": "Take payment in cash, card, or e-wallet",
+    "page": "/cashier",
+    "text": "Record Payment lets you choose how the customer pays. Cash automatically shows the change.",
+    "steps": [
+      "On the register, click Record Payment.",
+      "Choose Cash and enter the amount received. The change appears automatically.",
+      "For card, GCash, Maya, or another method, select it and enter a reference number.",
+      "Press Enter or click Confirm Payment. The receipt prints and the cart clears."
+    ],
+    "keywords": [
+      "payment",
+      "pay",
+      "cash",
+      "change",
+      "tendered",
+      "card",
+      "debit",
+      "gcash",
+      "maya",
+      "e-wallet",
+      "ewallet",
+      "qrph",
+      "Online payment",
+      "payment reference",
+      "checkout"
+    ]
+  },
+  {
+    "title": "Split a payment across two methods",
+    "page": "/cashier",
+    "text": "Split payment lets a customer pay with two payment methods. The balance stays open until the full amount is paid.",
+    "steps": [
+      "On the register, click Payment.",
+      "Choose the first payment method, enter the amount, and confirm. The remaining balance stays on screen.",
+      "Choose the second method and pay the remaining balance. Change is given only when the last method is cash.",
+      "Click Clear All to remove the payment parts and start again."
+    ],
+    "keywords": [
+      "split",
+      "split payment",
+      "two methods",
+      "part cash",
+      "partial",
+      "half cash half card",
+      "remaining balance"
+    ]
+  },
+  {
+    "title": "Charge a sale to a customer account",
+    "page": "/cashier",
+    "text": "The Unpaid method completes the sale while the customer still owes money. The balance stays on the customer's account until it is paid.",
+    "steps": [
+      "On the POS, click Customer and select a named customer.",
+      "Click Payment > Unpaid.",
+      "Choose the due date and confirm. The receipt prints as usual.",
+      "To collect payment later, go to More Options > Unpaid Orders, select the customer, and click Confirm Payment."
+    ],
+    "keywords": [
+      "credit",
+      "charge to account",
+      "unpaid",
+      "utang",
+      "Utang nag customer",
+      "pay later",
+      "due date",
+      "outstanding balance",
+      "settle credit"
+    ]
+  },
+  {
+    "title": "See the list of customers who still owe",
+    "page": "/cashier",
+    "text": "Unpaid Orders lists every customer with a balance and each receipt they still owe on.",
+    "steps": [
+      "Click Sidebar > Point of Sale.",
+      "Click More Options, then Unpaid Orders.",
+      "Search by customer name, or scroll. Each row shows the balance still due.",
+      "Click a customer to see their unpaid receipts, the total paid, and the balance.",
+      "For a printable list, click Sidebar > Reporting > Open Receivables (Unpaid Sales) or Customer Receivables Summary."
+    ],
+    "keywords": [
+      "unpaid customer",
+      "unpaid customers",
+      "list of unpaid",
+      "who owes",
+      "customer with balance",
+      "outstanding customers",
+      "utang list",
+      "credit list",
+      "receivables list",
+      "collectibles"
+    ]
+  },
+  {
+    "title": "Collect a payment on a customer's unpaid receipt",
+    "page": "/cashier",
+    "text": "Use Unpaid Orders to collect part or all of a customer's balance.",
+    "steps": [
+      "Go to Point of Sale > More Options > Unpaid Orders.",
+      "Find and select the customer.",
+      "Click Pay for one receipt, or click Pay All to settle the full balance.",
+      "Enter the amount and choose the payment method. Do not enter more than the balance.",
+      "Confirm the payment. The balance updates immediately."
+    ],
+    "keywords": [
+      "pay unpaid",
+      "collect payment",
+      "record payment",
+      "settle balance",
+      "pay utang",
+      "customer paid",
+      "partial payment",
+      "pay all",
+      "clear balance",
+      "Mag bayad sa utang",
+      "receive payment"
+    ]
+  },
+  {
+    "title": "Save an order and pick it up later",
+    "page": "/cashier",
+    "text": "Save Order parks the cart under a name. Serve someone else, then come back to it.",
+    "steps": [
+      "On the register, Click Save Order.",
+      "Type a name for the order. Click Save. The cart clears.",
+      "To bring it back, click Save Order, then Pending Orders. Or scan the order slip.",
+     "Click the order, then click Select Order. Or double-click it. It loads into the cart.",
+      "To Delete the save order, click Save Order and choose the name of the customer,  then click Delete. It cannot be undone."
+    ],
+    "keywords": [
+      "save order",
+      "saved order",
+      "save",
+      "pending order",
+      "park",
+      "hold",
+      "hold order",
+      "resume",
+      "restore",
+      "recall",
+      "on hold"
+    ]
+  },
+  {
+    "title": "Find and reprint a past sale",
+    "page": "/cashier",
+    "text": "Sales History shows past receipts. You can reprint, refund, or cancel a sale there.",
+    "steps": [
+      "Click Sidebar > Point of Sale.",
+      "Click More Options > View Sales History.",
+      "Scan the receipt barcode, or use the date, user, terminal, and status filters.",
+      "Click a sale to view the receipt.",
+      "Click Re-print Receipt to print it again. Click the invoice icon, then click the Download button to download the PDF."
+    ],
+    "keywords": [
+      "sales history",
+      "past sales",
+      "past receipts",
+      "view receipt",
+      "reprint",
+      "re-print",
+      "print again",
+      "lost receipt",
+      "find receipt",
+      "pdf invoice"
+    ]
+  },
+  {
+    "title": "Refund or exchange an item",
+    "page": "/cashier",
+    "text": "Use Refund to give money back. Use Return to exchange an item for another one.",
+    "steps": [
+      "Click Sidebar > Point of Sale.",
+      "Click More Options > View Sales History, then select the sale.",
+      "Click Return / Refund.",
+      "Choose the quantity to return. Mark each item as Restock or Damaged.",
+      "For a refund, click Refund. Choose the payment method and add a reference number if asked.",
+      "For an exchange, click Return. Add the replacement items and pay any difference."
+    ],
+    "keywords": [
+      "refund",
+      "return",
+      "exchange",
+      "return exchange",
+      "give money back",
+      "partial refund",
+      "damage product",
+      "restock",
+      "replace item"
+    ]
+  },
+  {
+    "title": "Cancel a whole receipt",
+    "page": "/cashier",
+    "text": "Cancel Transaction cancels the whole receipt and returns the items to stock. This cannot be undone.",
+    "steps": [
+      "Click Sidebar > Point of Sale.",
+      "Click More Options > View Sales History, then select the sale.",
+      "Click Cancel Transaction and enter the reason.",
+      "Confirm the cancellation. A manager may need to approve it.",
+      "Print the cancellation slip from the next dialog."
+    ],
+    "keywords": [
+      "void",
+      "cancel",
+      "cancel transaction",
+      "cancel receipt",
+      "wrong sale",
+      "mistake",
+      "receipt cancel",
+      "reverse sale",
+      "void receipt"
+    ]
+  },
+  {
+    "title": "Cash out and end your shift",
+    "page": "/cashier",
+    "text": "To close your shift, remove cash from the drawer and run the End Mid (Y) report.",
+    "steps": [
+      "On the register, click More Options > Cash-in/Cash-out.",
+      "Click Remove Cash. Enter the amount and reason, then click Save.",
+      "Click More Options > Cashier Report.",
+      "Click End Mid (Y) and count the cash by denomination. The report shows any overage or shortage.",
+      "The report saves and prints. Your store may require you to remove the cash first."
+    ],
+    "keywords": [
+      "cash out",
+      "end shift",
+      "close shift",
+      "remove cash",
+      "y read",
+      "end mid",
+      "y reading",
+      "cashier accountability",
+      "count drawer"
+    ]
+  },
+  {
+    "title": "X, Y, and Z readings",
+    "page": "/cashier",
+    "text": "Cashier Report has three readings: X shows current sales, Y closes your shift, and Z closes the business day.",
+    "steps": [
+      "Click Sidebar > Point of Sale.",
+      "Click More Options > Cashier Report.",
+      "Click Print Sales (X) to view current sales. This does not close anything.",
+      "Click End Mid (Y) to close your shift, then count the cash.",
+      "Click End of Day (Z) to close the business day. Do this once after the last sale.",
+      "Open the History tab to print an earlier reading."
+    ],
+    "keywords": [
+      "x reading",
+      "z closing report",
+      "reading",
+      "daily close",
+      "ano ang z reading",
+      "ano ang x reading",
+      "ano ang y reading",
+      "end day report",
+      "daily report",
+      "shift summary",
+      "close day"
+    ]
+  },
+  {
+    "title": "Choose which stock batch a sale uses",
+    "page": "/cashier",
+    "text": "If a product has several batches, you can choose which batch to sell. Turn on this option first.",
+    "steps": [
+      "Click Settings > Cashier Settings > Stock at the Register.",
+      "Turn on Enable Inventory Source Selection, then click Save.",
+      "On the register, add a product with several batches. The Select Inventory Source window opens.",
+      "Choose a batch using its number, expiry date, and quantity. Press Enter.",
+      "Products with only one batch do not show this window."
+    ],
+    "keywords": [
+      "inventory source",
+      "batch",
+      "stock source",
+      "which batch",
+      "expiry batch",
+      "lot",
+      "choose stock"
+    ]
+  },
+  {
+    "title": "Sell at wholesale or another price tier",
+    "page": "/cashier",
+    "text": "Price Mode lets you choose Retail, Wholesale, or another price tier for the whole cart.",
+    "steps": [
+      "Click Settings > Cashier Settings. Turn on Wholesale & Multi-Price Tiers, then click Save.",
+      "On the register, click the Retail/Wholesale switch or Price Mode. You can also press Left Shift.",
+      "Choose a price tier. All items in the cart use that tier's price.",
+      "If Price Tier Selection is set to ask per item, choose a price in the Price Type window when you add each product."
+    ],
+    "keywords": [
+      "wholesale",
+      "retail",
+      "price tier",
+      "price mode",
+      "price type",
+      "bulk price",
+      "multi price",
+      "switch price"
+    ]
+  },
+  {
+    "title": "Keyboard shortcuts at the register",
+    "page": "/cashier",
+    "text": "Use keyboard shortcuts to work at the register without a mouse. Your store can change these shortcuts in the theme customizer.",
+    "steps": [
+      "Press F2 for Discount, F3 for Save Order, F4 for Quantity, and F5 for Payment.",
+      "Press F6 for Search, F7 for Customer, F9 for Clear All, F10 for Cash Drawer, and F11 for Fullscreen.",
+      "Press Delete to remove the selected cart item. Press Tab to move between the search box and cart.",
+      "In search, use the arrow keys to move through results. Press Enter to add the selected product."
+    ],
+    "keywords": [
+      "shortcut",
+      "keyboard",
+      "hotkey",
+      "function key",
+      "keys",
+      "f-key",
+      "f2",
+      "f5",
+      "f7",
+      "quick keys"
+    ]
+  }
+]

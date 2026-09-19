@@ -1,0 +1,244 @@
+[
+  {
+    "title": "Add a branch",
+    "page": "/management/select-branch",
+    "text": "A new branch starts with the settings, receipt template, and theme of your first branch, plus default payment methods. Products are not copied. Import them after.",
+    "steps": [
+      "Click Sidebar > Branches. Owners/Super Admin only.",
+      "Click Add Branch.",
+      "Type the name, branch code or TIN, Branch Location, Type of business, and Operating Hours.",
+      "Click Save. If you see Branch Limit Reached, upgrade your plan first.",
+      "Then click Products, then Product List, then Import Products. Copy from another branch."
+    ],
+    "keywords": [
+      "add branch",
+      "new branch",
+      "create branch",
+      "open branch",
+      "another store",
+      "second store",
+      "branch limit",
+      "more branches",
+      "paano magdagdag ng branch"
+    ]
+  },
+  {
+    "title": "Switch branch",
+    "page": "/management/select-branch",
+    "text": "Everything you see is for one branch at a time. The branch name at the top of every page is the switcher.",
+    "steps": [
+      "Click Sidebar > Branches. Owners/Super Admins only.",
+      "Select a branch card.",
+      "Or Sidebar > Dashboard, then click the branch name at the top.",
+      "Select a branch.",
+      "Owners can select All Branch for a combined view.",
+      "Select one branch before opening Settings."
+    ],
+    "keywords": [
+      "switch branch",
+      "change branch",
+      "select branch",
+      "go to branch",
+      "current branch",
+      "which branch",
+      "paano magpalit ng branch"
+    ]
+  },
+  {
+    "title": "Edit or delete a branch",
+    "page": "/management/select-branch",
+    "text": "Each branch card has a menu with Edit and Delete. Both ask for the admin password. A branch that still has products cannot be deleted.",
+    "steps": [
+      "Click Sidebar > Branches. Owners/Super Admins only.",
+      "Click the three dots on the branch card.",
+      "Click Edit to change the name, location, type, or hours. Click Save.",
+      "Click Delete to remove it. Reset the Branch first if the branch has a past Transaction."
+    ],
+    "keywords": [
+      "edit branch",
+      "rename branch",
+      "delete branch",
+      "remove branch",
+      "branch address",
+      "branch hours",
+      "main branch",
+      "close branch",
+      "paano i-edit o i-delete ang branch"
+    ]
+  },
+  {
+    "title": "Per-branch settings and prices",
+    "page": "/management/select-branch",
+    "text": "Each branch has its own settings, prices, taxes, receipt template, and reports. Products and categories are shared by all branches.",
+    "steps": [
+      "Click Sidebar > Dashboard and click the branch name at the top. Select the branch you want to update.",
+      "Change that branch's settings or prices.",
+      "To copy a receipt template, go to Settings > Receipts & Reports > Apply to all branches.",
+      "To copy products and prices, go to Products > Product List > Import Products, then choose the branch to copy from.",
+      "Note: BIR-registered stores cannot copy receipt templates. Set up each branch's template separately."
+    ],
+    "keywords": [
+      "per branch",
+      "branch price",
+      "different price",
+      "branch settings",
+      "same settings all branches",
+      "branch specific",
+      "copy settings",
+      "copy prices",
+      "iba-iba ba ang presyo bawat branch"
+    ]
+  },
+  {
+    "title": "Branch sales cards and sorting",
+    "page": "/management/select-branch",
+    "text": "Each card shows gross and net sales for the chosen period and a plan badge: Freemium, Pro, Pro Trial, or Expired. The period starts on the last 7 days.",
+    "steps": [
+      "Click Sidebar > Branches. Owners/Super Admins only.",
+      "Click the date button at the top to change the period.",
+      "Search by name, address, or branch code.",
+      "Select Custom Order and drag the cards to rearrange them, or select Alphabetical to sort them by name."
+    ],
+    "keywords": [
+      "branch sales",
+      "gross sales",
+      "sales",
+      "compare branches",
+      "sort branches",
+      "branch order",
+      "plan badge",
+      "search branch",
+      "paano tingnan ang benta ng bawat branch"
+    ]
+  },
+  {
+    "title": "Trial on a new branch",
+    "page": "/management/account-subscription",
+    "text": "The Pro trial is one window for the whole store. A new branch joins the same window. It does not get a fresh trial of its own.",
+    "steps": [
+      "Click Sidebar > Settings > Account & Subscription.",
+      "Check the Pro trial status and remaining days.",
+      "Click Start trial on a branch.",
+      "Add branches during the active trial to give them the remaining days.",
+      "When the trial ends, open Manage Plans.",
+      "Upgrade each branch you want to keep on Pro."
+    ],
+    "keywords": [
+      "branch trial",
+      "new branch trial",
+      "trial expired",
+      "pro trial",
+      "trial days",
+      "trial per branch",
+      "Paano magdagdag ng branch sa trial",
+      "fresh trial",
+      "gaano katagal ang trial ng branch"
+    ]
+  },
+  {
+    "title": "Add products to a new branch",
+    "page": "/management/select-branch",
+    "text": "Products are not copied when you create a branch. Import them from an existing branch before selling or receiving stock there.",
+    "steps": [
+      "Click Sidebar > Products > Product List.",
+      "Click Import Products.",
+      "Select the branch to copy from.",
+      "Choose the products and prices to import.",
+      "Click Import."
+    ],
+    "keywords": [
+      "products missing in new branch",
+      "copy products to branch",
+      "import branch products",
+      "new branch product list",
+      "branch product setup",
+      "Paano Magdagdag ng produkto sa bagong branch",
+      "products not copied"
+    ]
+  },
+  {
+    "title": "View all branch sales",
+    "page": "/management/select-branch",
+    "text": "Owners can use All Branch to see combined information across branches. Use one branch when a page needs branch-specific settings.",
+    "steps": [
+      "Click Sidebar > Dashboard, then click the branch name at the top.",
+      "Select All Branch.",
+      "View the combined sales.",
+      "Select one branch for Settings."
+    ],
+    "keywords": [
+      "all branch view",
+      "combined branch sales",
+      "all stores total",
+      "view every branch",
+      "branch comparison view",
+      "paano mag-view ng lahat ng branch",
+      "owner all branches"
+    ]
+  },
+  {
+    "title": "Change branch information",
+    "page": "/management/select-branch",
+    "text": "Owners can update a branch name, address, business type, and hours from the branch card menu. Changes apply to that branch only.",
+    "steps": [
+      "Click Sidebar > Branches. Owners/Super Admin only.",
+      "Click the three dots on the branch card.",
+      "Click Edit.",
+      "Or Select a branch then click Settings > Business Details.",
+      "Update the branch details.",
+      "Click Save."
+    ],
+    "keywords": [
+      "change branch details",
+      "edit branch address",
+      "update branch name",
+      "change branch hours",
+      "edit business type",
+      "branch information",
+      "paano baguhin ang impormasyon ng branch"
+    ]
+  },
+  {
+    "title": "New branch setup",
+    "page": "/management/select-branch",
+    "text": "A new branch copies your settings, receipt template, theme, and default payment methods. Products and prices must be added separately.",
+    "steps": [
+      "Create the new branch.",
+      "Review its copied settings, receipt template, theme, and payment methods.",
+      "Go to Products > Product List > Import Products.",
+      "Choose another branch and import the products.",
+      "Check the product prices before selling."
+    ],
+    "keywords": [
+      "new branch setup",
+      "branch copies",
+      "copied settings",
+      "branch theme",
+      "receipt template copied",
+      "products for new branch",
+      "branch product prices",
+      "ano ang kasama sa bagong branch"
+    ]
+  },
+  {
+    "title": "Check existing branch",
+    "page": "/management/select-branch",
+    "text": "Open the Branches page to review your current branches, their status, sales, and plan. This is the quickest way to see what already exists before creating or editing anything.",
+    "steps": [
+      "Click Sidebar > Branches.",
+      "Look at each branch card to see the name, plan, and sales summary.",
+      "Use the search box or date selector to narrow the list.",
+      "Click a branch card to open it or use the menu for edit and delete options."
+    ],
+    "keywords": [
+      "check branch",
+      "existing branch",
+      "view branches",
+      "branch list",
+      "current branches",
+      "branch status",
+      "see branch details",
+      "branch overview"
+    ]
+  }
+]

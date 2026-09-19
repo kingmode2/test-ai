@@ -1,0 +1,178 @@
+[
+  {
+    "title": "Add a customer",
+    "page": "/management/customers",
+    "text": "A customer record holds contact details, ID numbers, and a Type. The Type decides which discount the cashier gives.",
+    "steps": [
+      "Click Sidebar > Customers.",
+      "Click Add Customer.",
+      "Enter the customer's name and contact details.",
+      "Choose a Customer Type, such as Regular, Senior Citizen, PWD, or Solo Parent.",
+      "Add a Loyalty Card No. if the customer should earn points or hold load.",
+      "Click Save."
+    ],
+    "keywords": [
+      "new customer",
+      "add customer",
+      "create customer",
+      "register customer",
+      "pwd customer",
+      "customer type",
+      "walk-in"
+    ]
+  },
+  {
+    "title": "Import customers or edit many at once",
+    "page": "/management/customers",
+    "text": "Bulk Manage shows the list as a spreadsheet. Add rows, fix cells, or bring in a CSV or Excel file, then save once.",
+    "steps": [
+      "Click Sidebar > Customers.",
+      "Click Bulk Manage > Select a Branch. Use a computer with a wide screen.",
+      "Edit the cells, or click Import and choose a CSV or Excel file.",
+      "Imported rows match existing customers, so duplicates are not added.",
+      "Or Click add from Masterlist,then Select a customer from the other branch to copy them to this branch.",
+      "Click Save."
+    ],
+    "keywords": [
+      "import customers",
+      "bulk manage",
+      "masterlist",
+      "customer spreadsheet",
+      "excel",
+      "csv",
+      "upload customers",
+      "edit many customers",
+      "spreadsheet"
+    ]
+  },
+  {
+    "title": "See a customer's purchases and what they owe",
+    "page": "/management/customers",
+    "text": "Details shows total spent, Receivables, and every receipt. Credit receipts show their due date.",
+    "steps": [
+      "Click Sidebar > Customers.",
+      "Click the arrow at the end of the customer row, then click Details.",
+      "Receivables shows the amount the customer still owes.",
+      "Click the invoice to see its items and payment status.",
+      "To collect payment, open Point of Sale > More Options > Unpaid ,then Select the customer."
+    ],
+    "keywords": [
+      "customer history",
+      "what they bought",
+      "receivables",
+      "Paano mag bayad nag utang",
+      "customer account",
+      "customer credit",
+      "unpaid receipts",
+      "customer owes"
+    ]
+  },
+  {
+    "title": "Top up load, redeem points, or view loyalty history",
+    "page": "/management/customers",
+    "text": "Manage Loyalty shows for any customer with a loyalty card number. It holds their load, points, and history.",
+    "steps": [
+      "Click Sidebar > Customers.",
+      "Click the arrow at the end of the row, then click Manage Loyalty.",
+      "Click Top-Up Balance to add or remove load.",
+      "Click Redeem Points to exchange points for load.",
+      "Click View History to see all load and point activity."
+    ],
+    "keywords": [
+      "top up",
+      "points balance",
+      "loyalty history",
+      "how to redeem points",
+      "redeem loyalty points",
+      "how to top up load",
+      "loyalty points",
+      "manage loyalty"
+    ]
+  },
+  {
+    "title": "Send a customer their virtual loyalty card",
+    "page": "/management/customers",
+    "text": "The loyalty card can be downloaded or emailed to the customer. The design is set per branch in Settings.",
+    "steps": [
+      "Click Sidebar > Customers.",
+      "Click the arrow at the end of the row, then click Manage Loyalty.",
+      "Use the card buttons to download or email the card.",
+      "To change the design, click Settings > Loyalty Points > Loyalty Card Design."
+    ],
+    "keywords": [
+      "virtual card",
+      "email card",
+      "download card",
+      "card design",
+      "gmail card",
+      "virtual loyalty card",
+      "loyalty card design",
+      "customer card",
+      "membership card"
+    ]
+  },
+  {
+    "title": "Set how points are earned and redeemed",
+    "page": "/management/settings/loyalty",
+    "text": "Loyalty Points settings decide how much a customer must spend to earn points, and what points are worth.",
+    "steps": [
+      "Click Settings > Loyalty Points.",
+      "Set Minimum Purchase and Points Earned to control how customers earn points.",
+      "Set Points Required and Redeemable Amount to control how customers redeem points.",
+      "Click Save."
+    ],
+    "keywords": [
+      "points rate",
+      "earn points",
+      "points per peso",
+      "points value",
+      "loyalty point balance",
+      "loyalty settings",
+      "minimum purchase"
+    ]
+  },
+  {
+    "title": "Remove a customer from a branch",
+    "page": "/management/customers",
+    "text": "Customers are shared across branches. Delete removes them from the branch you are on, not from every branch.",
+    "steps": [
+      "Click Sidebar > Customers.",
+      "Click the arrow at the end of the row, then click Delete.",
+      "Confirm the deletion. The built-in walk-in customer cannot be deleted."
+    ],
+    "keywords": [
+      "delete customer",
+      "remove customer",
+      "customer in other branch",
+      "unlink customer",
+      "delete a customer",
+      "remove a customer",
+      "delete customer from branch",
+      "remove customer from branch",
+      "shared customer"
+    ]
+  },
+  {
+    "title": "Load and top-up reports",
+    "page": "/management/customers",
+    "text": "Print & Export holds the customer list plus two load reports: Unearned Revenue and Total Top-Up Amount.",
+    "steps": [
+      "Click Sidebar > Customers.",
+      "Click Print & Export in the top bar.",
+      "Unearned Revenue shows the load customers still hold. Total Top-Up Amount shows their total load for a period.",
+      "Choose Print, PDF, or Excel to export the customer list on screen."
+    ],
+    "keywords": [
+      "unearned revenue",
+      "top-up report",
+      "total top up",
+      "customer load report",
+      "export customers",
+      "download customers",
+      "customer list",
+      "customer report",
+      "customer excel",
+      "print customers"
+    ]
+  }
+]

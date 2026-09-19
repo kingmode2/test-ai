@@ -1,0 +1,137 @@
+[
+  {
+    "title": "Do a physical count",
+    "page": "/management/inventory/inventory-count",
+    "text": "This records the stock you actually have on hand. When you save, the system updates inventory to match your count.",
+    "steps": [
+      "Click Sidebar > Inventory, then Inventory Count.",
+      "Click New Inventory Count.",
+      "Click each item on the left to add it, or scan its barcode.",
+      "On the right, enter the counted quantity.",
+      "Click Save. The count posts and updates stock."
+    ],
+    "keywords": [
+      "inventory count",
+      "physical count",
+      "stock take",
+      "stocktake",
+      "count stock",
+      "new inventory count",
+      "cycle count"
+    ]
+  },
+  {
+    "title": "Count one section at a time",
+    "page": "/management/inventory/inventory-count",
+    "text": "Filter the list first, then use Add All to bring in only that section. Anything not added stays unchanged.",
+    "steps": [
+      "Click Sidebar > Inventory, then Inventory Count.",
+      "Click New Inventory Count.",
+      "Filter the left panel by category or shelf.",
+      "Click Add All. The items in that section move to the right.",
+      "Enter the counted quantities and click Save."
+    ],
+    "keywords": [
+      "count by category",
+      "count a shelf",
+      "add all",
+      "count section",
+      "partial count",
+      "count one aisle"
+    ]
+  },
+  {
+    "title": "Save a count as a draft and finish later",
+    "page": "/management/inventory/inventory-count",
+    "text": "A draft saves your counted numbers without changing stock. You can stop and finish the count later.",
+    "steps": [
+      "While counting, click Save as Draft.",
+      "To continue later, click Sidebar > Inventory, then Inventory Count.",
+      "Drafts are marked with a Draft badge in the list.",
+      "Click the arrow at the end of the row, then Edit Inventory Count.",
+      "Finish the remaining quantities, then click Save to post the count."
+    ],
+    "keywords": [
+      "draft count",
+      "save as draft",
+      "pause count",
+      "continue count",
+      "unfinished count",
+      "edit inventory count"
+    ]
+  },
+  {
+    "title": "Post a count",
+    "page": "/management/inventory/inventory-count",
+    "text": "Once you save the count, it is posted and cannot be edited. Check every number before you finish.",
+    "steps": [
+      "Open the count and review each quantity on the right.",
+      "Fix any mistake by typing the correct number.",
+      "Click Save. Stock updates, and the row shows Posted.",
+      "If you need to change it after posting, use a Stock Adjustment instead."
+    ],
+    "keywords": [
+      "post count",
+      "finalize count",
+      "posted count",
+      "cannot edit count",
+      "count locked",
+      "submit count"
+    ]
+  },
+  {
+    "title": "Restore a count you changed by mistake",
+    "page": "/management/inventory/inventory-count",
+    "text": "Restore Counts returns the right panel to the last saved version so you can start again.",
+    "steps": [
+      "In the count editor, click Restore Counts in the panel toolbar.",
+      "Confirm the reset. Unsaved numbers are cleared.",
+      "Enter the counts again and click Save."
+    ],
+    "keywords": [
+      "restore counts",
+      "undo count",
+      "reset count",
+      "start over count",
+      "clear count"
+    ]
+  },
+  {
+    "title": "Count items with a barcode scan",
+    "page": "/management/inventory/inventory-count",
+    "text": "You can scan an item barcode to add it to the count quickly and save time during a large stock take.",
+    "steps": [
+      "Open Inventory Count and start a new count.",
+      "Scan the item barcode or click the item in the list.",
+      "Enter the counted quantity on the right.",
+      "Repeat for each item, then click Save."
+    ],
+    "keywords": [
+      "barcode scan",
+      "count by barcode",
+      "scan item",
+      "item barcode",
+      "count with scanner"
+    ]
+  },
+  {
+    "title": "Review past counts",
+    "page": "/management/inventory/inventory-count",
+    "text": "Each posted count shows the quantity you entered and the quantity the system expected, so you can compare the difference.",
+    "steps": [
+      "Click Sidebar > Inventory, then Inventory Count.",
+      "Search by reference number or choose a period.",
+      "Click the arrow at the end of a row, then View Inventory Count.",
+      "Click Print & Export to print or export the list."
+    ],
+    "keywords": [
+      "view count",
+      "past counts",
+      "count history",
+      "count report",
+      "print counts",
+      "expected vs counted",
+      "variance"
+    ]
+  }
+]

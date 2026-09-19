@@ -1,0 +1,162 @@
+[
+  {
+    "title": "Check how much stock a branch has",
+    "page": "/management/inventory",
+    "text": "Stock on Hand lists every product in one branch. It shows the quantity left, the cost, and the selling price.",
+    "steps": [
+      "Click Inventory in the sidebar, then Stock on Hand.",
+      "Search by name, code, or barcode. Or scan the item.",
+      "Click a category on the left to shorten the list."
+    ],
+    "keywords": [
+      "stock on hand",
+      "how many left",
+      "stock level",
+      "quantity on hand",
+      "check stock",
+      "branch stock",
+      "stock per branch"
+    ]
+  },
+  {
+    "title": "Find low stock or items that ran out",
+    "page": "/management/inventory",
+    "text": "The All Products filter shows only what needs a reorder. The low stock level is set on each product.",
+    "steps": [
+      "Click Inventory in the sidebar, then Stock on Hand.",
+      "Click the All Products filter in the top bar.",
+      "Pick Low stock for items at or below their warning level.",
+      "Pick Out of stock for items with nothing left.",
+      "To change a warning level, edit the product on the Products page. Set its Low Stock Quantity."
+    ],
+    "keywords": [
+      "low stock",
+      "reorder",
+      "running low",
+      "zero quantity",
+      "sold out",
+      "what to order",
+      "low stock warning"
+    ]
+  },
+  {
+    "title": "See where stock went",
+    "page": "/management/inventory",
+    "text": "Stock History lists every change to one product. Deliveries, sales, counts, losses, and transfers, with who did it and when.",
+    "steps": [
+      "Click Inventory in the sidebar, then Stock on Hand.",
+      "Find the product.",
+      "Double-click its row. Stock History opens.",
+      "Filter by type or pick a period to narrow it down.",
+      "Click Export to send the history to Excel."
+    ],
+    "keywords": [
+      "stock history",
+      "stock movement",
+      "who changed stock",
+      "missing stock",
+      "trace stock",
+      "stock does not match"
+    ]
+  },
+  {
+    "title": "Fix a wrong stock number",
+    "page": "/management/inventory/stock-adjustment",
+    "text": "You cannot type a stock number on Stock on Hand. Use the right page instead, so there is a record of why.",
+    "steps": [
+      "Click Inventory in the sidebar.",
+      "Number is simply wrong? Click Stock Adjustment.",
+      "Items broke, expired, or went missing? Click Loss & Damage.",
+      "Counted the whole shelf? Click Inventory Count.",
+      "A delivery arrived? Click Purchase Orders and receive it."
+    ],
+    "keywords": [
+      "wrong quantity",
+      "correct stock",
+      "edit stock",
+      "change quantity",
+      "stock is wrong",
+      "update stock",
+      "fix stock"
+    ]
+  },
+  {
+    "title": "See which items expire soon",
+    "page": "/management/inventory/batch-expiry",
+    "text": "Batch & Expiry shows one row per delivery, with its expiry date and batch number. The earliest date is on top.",
+    "steps": [
+      "Click Inventory in the sidebar, then Batch & Expiry.",
+      "Use the expiry filter to show only items due within a number of days.",
+      "Search by product, barcode, expiry date, or batch number.",
+      "Want different day ranges? Click Settings in the sidebar, then Products & Inventory."
+    ],
+    "keywords": [
+      "expiry",
+      "expiring soon",
+      "expiration date",
+      "expired items",
+      "batch number",
+      "lot number"
+    ]
+  },
+  {
+    "title": "Change a batch expiry date or split a batch",
+    "page": "/management/inventory/batch-expiry",
+    "text": "Edit changes the date, batch number, or quantity of one batch. Add more dates to split it into several batches.",
+    "steps": [
+      "Click Inventory in the sidebar, then Batch & Expiry.",
+      "Find the batch.",
+      "Click the arrow at the end of its row, then Edit.",
+      "Set the new date, batch number, and quantity. Or tick No Expiration.",
+      "Click Add Entry to give part of the stock a different date or batch number.",
+      "Click Save."
+    ],
+    "keywords": [
+      "edit expiration",
+      "change expiry",
+      "wrong expiry date",
+      "edit batch",
+      "split batch",
+      "no expiration",
+      "set expiry"
+    ]
+  },
+  {
+    "title": "Write off a batch that is about to expire",
+    "page": "/management/inventory/batch-expiry",
+    "text": "A batch within 30 days of expiry can be written off from the Batch & Expiry page.",
+    "steps": [
+      "Click Inventory in the sidebar, then Batch & Expiry.",
+      "Find the batch.",
+      "Click the arrow at the end of its row, then Declare Loss & Damage.",
+      "Type the quantity and pick the reason.",
+      "Click Save. Stock goes down by that amount."
+    ],
+    "keywords": [
+      "declare loss",
+      "write off expired",
+      "expired batch",
+      "dispose expired",
+      "remove expired stock"
+    ]
+  },
+  {
+    "title": "Print or export the stock list",
+    "page": "/management/inventory",
+    "text": "Print & Export prints what is on screen, or saves it as PDF or Excel. Filter first, since it prints what you see.",
+    "steps": [
+      "Click Inventory in the sidebar, then Stock on Hand.",
+      "Set your search, category, and stock filter.",
+      "Click Print & Export in the top bar.",
+      "Pick Print, PDF, or Excel."
+    ],
+    "keywords": [
+      "print stock",
+      "export stock",
+      "stock excel",
+      "stock pdf",
+      "download stock list",
+      "stock report"
+    ]
+  }
+]

@@ -1,0 +1,149 @@
+[
+  {
+    "title": "Add a service charge",
+    "page": "/management/settings/charges",
+    "text": "Create a service charge, then enable it for the products that use it.",
+    "steps": [
+      "Go to Settings > Charges & Discounts.",
+      "Open the Service Charges tab.",
+      "Click Add Charge. Enter a Rate. Click Create Charge then Click Save.",
+      "Go to Products > Product List and open the product.",
+      "Under Tax & Discounts > Additional charges, turn on Service Charge, then save the product."
+    ],
+    "keywords": [
+      "service charge",
+      "service fee",
+      "service",
+      "view service charge",
+      "add service charge",
+      "Paano mag add ng service charge",
+      "Paano mag add ng service fee",
+      "add charge",
+      "extra fee",
+      "charge per transaction",
+      "additional charges"
+    ]
+  },
+  {
+    "title": "Add a discount type",
+    "page": "/management/settings/charges",
+    "text": "Create a named discount, such as Employee Discount, with a value and tax setting.",
+    "steps": [
+      "Click Settings > Charges & Discounts.",
+      "Open the Discounts tab.",
+      "Click Add Discount. Enter a name and choose Percentage or Fixed Amount.",
+      "Choose the tax setting: Standard, Tax-Exempt, or Tax-Adjusted.",
+      "Click Save. Assign the discount as a customer's Customer Type, or let the cashier choose it at the register.",
+      "Note: The default discount on each customer type is system-mandated and cannot be changed. "
+    ],
+    "keywords": [
+      "discount type",
+      "employee discount",
+      "custom discount",
+      "percentage discount",
+      "paano mag add ng discount type",
+      "add discount",
+      "fixed discount",
+      "tax exempt"
+    ]
+  },
+  {
+    "title": "Set up government discounts",
+    "page": "/management/settings/charges",
+    "text": "Senior Citizen, PWD, Solo Parent, and other government discounts are built in. Their rate and tax rule follow your business setup.",
+    "steps": [
+      "Click Sidebar > Settings, then Charges & Discounts.",
+      "Open the Discounts tab to see them.",
+      "Their rate and VAT rule come from your country, BIR, and VAT status under Business Details.",
+      "Click Sidebar > Customers. Edit the customer and set the Customer Type. The cashier then applies it by itself.",
+      "Note: The default discount on each customer type is system-mandated and cannot be changed. "
+
+    ],
+    "keywords": [
+      "solo parent",
+      "sc discount",
+      "government discount",
+      "bir",
+      "vat exempt",
+      "bir discount",
+      "20 percent"
+    ]
+  },
+  {
+    "title": "Limit discounts the cashier can give",
+    "page": "/management/settings/cashier",
+    "text": "Set the maximum discount a cashier can give. Larger discounts can require manager approval.",
+    "steps": [
+      "Click Sidebar > Settings > Cashier Settings.",
+      "Find the Discounts section.",
+      "Set Default Discount Type to Percent or Fixed Amount.",
+      "Set the Discount Limit. Turn on manager approval for discounts above this limit.",
+      "Click Save."
+    ],
+    "keywords": [
+      "maximum discount",
+      "cashier discount",
+      "discount customer",
+      "default discount type",
+      "customer discount",
+      "override discount"
+    ]
+  },
+  {
+    "title": "Charge a fee for card or e-wallet payments",
+    "page": "/management/payment-methods",
+    "text": "A fee tied to how the customer pays is set on the payment method, not here.",
+    "steps": [
+      "Click Sidebar > Payment Methods.",
+      "Double-click the card or e-wallet method.",
+      "Set Payment Charge as a fixed amount or a percent.",
+      "Click Save."
+    ],
+    "keywords": [
+      "card surcharge",
+      "gcash fee",
+      "ewallet fee",
+      "payment method fee",
+      "payment fee",
+      "payment surcharge",
+      "convenience fee",
+      "payment charge"
+    ]
+  },
+  {
+    "title": "The Charges page",
+    "page": "/management/charges",
+    "text": "The Charges page shows service charges, loyalty points, and discount types in one place.",
+    "steps": [
+      "Click Sidebar > Settings.",
+      "To edit service charges or discounts, go to Settings > Charges & Discounts.",
+      "To edit loyalty points, go to Settings > Loyalty Points."
+    ],
+    "keywords": [
+      "charges page",
+      "loyalty points rate",
+      "discount types list",
+      "service charges list"
+    ]
+  },
+  {
+    "title": "Edit a service charge",
+    "page": "/management/settings/charges",
+    "text": "Change the rate of an existing service charge from the Service Charges tab.",
+    "steps": [
+      "Go to Settings > Charges & Discounts.",
+      "Open the Service Charges tab.",
+      "Select the service charge you want to change.",
+      "Update the Rate, then click Save."
+    ],
+    "keywords": [
+      "edit service charge",
+      "change service charge",
+      "update service fee",
+      "change service fee",
+      "change fee",
+      "service charge rate",
+      "modify charge"
+    ]
+  }
+]

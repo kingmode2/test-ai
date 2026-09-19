@@ -1,0 +1,165 @@
+[
+  {
+    "title": "Create a purchase order",
+    "page": "/management/inventory/purchase-orders",
+    "text": "A purchase order is an order you send to a supplier. Stock does not change until the goods are received.",
+    "steps": [
+      "Click Sidebar > Inventory, then Purchase Orders.",
+      "Click Create Purchase Order.",
+      "Choose the supplier. Mark it as Paid or leave it Unpaid and set a due date.",
+      "Add each product and enter the quantity and cost.",
+      "Click Save Purchase Order.",
+      "Choose Receive Now if the goods are already here, or Receive Later if they are still coming."
+    ],
+    "keywords": [
+      "create purchase order",
+      "new po",
+      "order from supplier",
+      "create po",
+      "place order",
+      "new purchase order",
+      "supplier order",
+      "purchase order"
+    ]
+  },
+  {
+    "title": "Save a purchase order as a draft",
+    "page": "/management/inventory/purchase-orders",
+    "text": "A draft saves your order without changing stock or prices. You can finish it later.",
+    "steps": [
+      "While building the order, click Save as Draft.",
+      "To find it later, click Sidebar > Inventory, then Purchase Orders.",
+      "Set the Status filter to Draft.",
+      "Click the arrow at the end of the row, then Edit Purchase Order.",
+      "Finish it and click Save Purchase Order."
+    ],
+    "keywords": [
+      "draft po",
+      "unfinished order",
+      "draft purchase order"
+    ]
+  },
+  {
+    "title": "Receive a delivery",
+    "page": "/management/inventory/purchase-orders",
+    "text": "Receiving is the step that adds stock. Enter what actually arrived so a short delivery is easy to record.",
+    "steps": [
+      "Click Sidebar > Inventory, then Purchase Orders.",
+      "Set the Status filter to To Receive.",
+      "Click the arrow at the end of the row, then Receive Items.",
+      "Type the quantity received on each line, or click Receive All.",
+      "Add the batch number and expiry date if the product has one.",
+      "Click Receive Now. Any shortage stays open as Partially Received."
+    ],
+    "keywords": [
+      "receive purchase order",
+      "receive items",
+      "delivery arrived",
+      "stock received",
+      "mark received",
+      "partial delivery",
+      "receive po"
+    ]
+  },
+  {
+    "title": "Receive the goods while creating the order",
+    "page": "/management/inventory/purchase-orders",
+    "text": "If the goods are already here, you can receive them while you create the order. The order saves first, and then the receiving form opens.",
+    "steps": [
+      "Click Sidebar > Inventory, then Purchase Orders.",
+      "Click Create Purchase Order and fill it in as usual.",
+      "Click Save Purchase Order, then choose Receive Now.",
+      "Type the received quantities, batch numbers, and expiry dates.",
+      "Click Receive Now again. The Receiving Report opens so you can print it."
+    ],
+    "keywords": [
+      "receive now",
+      "goods already here",
+      "order and receive",
+      "receive immediately",
+      "walk in delivery"
+    ]
+  },
+  {
+    "title": "Pay a supplier for an order",
+    "page": "/management/inventory/purchase-orders",
+    "text": "Record Payment logs what you paid the supplier. The Balance column shows the remaining amount owed.",
+    "steps": [
+      "Click Sidebar > Inventory, then Purchase Orders.",
+      "Find the order.",
+      "Click the arrow at the end of the row, then Record Payment.",
+      "Type the amount, payment method, and date. Add a reference, note, or receipt photo if needed.",
+      "Click Save.",
+      "To see past payments, choose Payment History from the same menu."
+    ],
+    "keywords": [
+      "pay purchase order",
+      "supplier payment",
+      "pay supplier",
+      "po balance",
+      "unpaid order",
+      "payment history",
+      "amount owed"
+    ]
+  },
+  {
+    "title": "Print a purchase order or receiving report",
+    "page": "/management/inventory/purchase-orders",
+    "text": "View Purchase Order shows the order you sent. Receiving Report shows what arrived compared with the original order.",
+    "steps": [
+      "Click Sidebar > Inventory, then Purchase Orders.",
+      "Click the arrow at the end of the order row.",
+      "Choose View Purchase Order for the order document.",
+      "Choose Receiving Report after something has been received.",
+      "Print it or save it as a PDF from the preview."
+    ],
+    "keywords": [
+      "print po",
+      "purchase order pdf",
+      "receiving report",
+      "print receiving report",
+      "view purchase order",
+      "po document"
+    ]
+  },
+  {
+    "title": "Delete a purchase order",
+    "page": "/management/inventory/purchase-orders",
+    "text": "You can delete an order before it is received, even if you already paid for it. A received order cannot be deleted.",
+    "steps": [
+      "Click Sidebar > Inventory, then Purchase Orders.",
+      "Find the order.",
+      "Click the arrow at the end of the row, then Delete Purchase Order.",
+      "Confirm. If the option is missing, the delivery was already received."
+    ],
+    "keywords": [
+      "delete purchase order",
+      "remove po",
+      "cancel order",
+      "delete po",
+      "wrong order"
+    ]
+  },
+  {
+    "title": "Find an old purchase order",
+    "page": "/management/inventory/purchase-orders",
+    "text": "Use the filters together to narrow a long list. Each branch keeps its own orders, so choose the branch first.",
+    "steps": [
+      "Click Sidebar > Inventory, then Purchase Orders.",
+      "Type the PO number, reference, or supplier name in the search box.",
+      "Set Status to To Receive, Partially Received, or Draft.",
+      "Choose a supplier in All Suppliers or a date range in Select Period.",
+      "Click the row to open the order or use the action menu for more options."
+    ],
+    "keywords": [
+      "find po",
+      "search purchase order",
+      "filter supplier",
+      "old purchase order",
+      "orders by supplier",
+      "orders this month",
+      "partially received",
+      "to receive"
+    ]
+  }
+]

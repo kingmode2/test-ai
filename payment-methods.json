@@ -1,0 +1,134 @@
+[
+  {
+    "title": "Add a payment method",
+    "page": "/management/payment-methods",
+    "text": "A payment method is one way a customer can pay. What you add here is what the cashier sees at checkout.",
+    "steps": [
+      "Click Sidebar > Payment Methods.",
+      "Click Add Payment Method.",
+      "Type a name the cashier will recognize, such as GCash or Visa.",
+      "Choose the Payment Type.",
+      "Turn on Active Status and Available in Cashier.",
+      "Click Save. It will appear on the payment screen for the next sale."
+    ],
+    "keywords": [
+      "add payment method",
+      "card payment",
+      "new payment",
+      "accept card",
+      "bank transfer"
+    ]
+  },
+  {
+    "title": "Which payment type to pick",
+    "page": "/management/payment-methods",
+    "text": "The payment type tells the system how to handle the payment. Choose the option that matches how the customer actually pays.",
+    "steps": [
+      "Normal Payment is cash over the counter.",
+      "E-Wallet means GCash, Maya, and similar apps. Debit/Credit Card means a card swipe or tap.",
+      "Finance means a loan from Home Credit, Billease, and similar providers. It is not counted as paid at checkout.",
+      "Unpaid charges the sale to the customer. Loyalty Points uses points the customer already earned."
+    ],
+    "keywords": [
+      "payment type",
+      "normal payment",
+      "finance",
+      "home credit",
+      "billease",
+      "loyalty points payment",
+      "unpaid type",
+      "debit credit"
+    ]
+  },
+  {
+    "title": "Let customers pay later on credit",
+    "page": "/management/payment-methods",
+    "text": "If Mark as Paid is turned off, the sale is charged to the customer instead of taking money immediately.",
+    "steps": [
+      "Click Sidebar > Payment Methods.",
+      "Click Add Payment Method or edit an existing one.",
+      "Turn off Mark as Paid, then click Save.",
+      "At checkout, choose the customer and set a due date.",
+      "The amount stays under that customer's Receivables until it is paid."
+    ],
+    "keywords": [
+      "unpaid sale",
+      "mark as paid"
+    ]
+  },
+  {
+    "title": "Stop using a payment method",
+    "page": "/management/payment-methods",
+    "text": "Turn a payment method off instead of deleting it. Older sales still point to it, so deletion is blocked once it has been used.",
+    "steps": [
+      "Click Sidebar > Payment Methods.",
+      "Double-click the method, or click the arrow at the end of the row and choose Edit.",
+      "Turn off Active Status, or turn off Available in Cashier to hide it at checkout only.",
+      "Click Save.",
+      "Delete only works for a method that has never been used on a sale."
+    ],
+    "keywords": [
+      "remove payment method",
+      "delete payment method",
+      "hide from cashier",
+      "disable payment",
+      "cannot delete",
+      "old payment method"
+    ]
+  },
+  {
+    "title": "Require a reference number or add a surcharge",
+    "page": "/management/payment-methods",
+    "text": "E-Wallet and card methods can require a payment reference and add a fee when the customer uses that method.",
+    "steps": [
+      "Click Sidebar > Payment Methods.",
+      "Double-click the card or e-wallet method.",
+      "Turn on Requires Reference Number so the cashier must enter the GCash or card reference.",
+      "Set Payment Charge to a fixed amount or percentage if you want to add a fee.",
+      "Add a QR code image if needed, then click Save."
+    ],
+    "keywords": [
+      "reference number",
+      "transaction reference",
+      "surcharge",
+      "card fee",
+      "qr code image"
+    ]
+  },
+  {
+    "title": "Open the cash drawer after a payment",
+    "page": "/management/payment-methods",
+    "text": "Open Cash Drawer makes the drawer open automatically after a sale paid with this method.",
+    "steps": [
+      "Click Sidebar > Payment Methods.",
+      "Double-click the payment method.",
+      "Turn on Open Cash Drawer, then click Save.",
+      "Keep it off for card and e-wallet methods if the drawer should stay closed."
+    ],
+    "keywords": [
+      "cash drawer",
+      "drawer does not open",
+      "pop drawer",
+      "kick drawer"
+    ]
+  },
+  {
+    "title": "Philhealth payments",
+    "page": "/management/payment-methods",
+    "text": "Mark a payment method as Philhealth when the sale is billed to Philhealth. It is not counted as paid at checkout.",
+    "steps": [
+      "Click Sidebar > Payment Methods.",
+      "Double-click the payment method.",
+      "Turn on This payment method is Philhealth. Mark as Paid turns off automatically.",
+      "Click Save.",
+      "Sales paid this way appear in the Philhealth report under Reporting."
+    ],
+    "keywords": [
+      "philhealth",
+      "gamot program",
+      "philhealth payment",
+      "medicine program",
+      "government payment"
+    ]
+  }
+]

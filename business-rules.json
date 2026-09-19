@@ -1,0 +1,204 @@
+[
+  {
+    "title": "When stock goes up and down",
+    "page": "/management/inventory",
+    "text": "Stock goes down when items leave and goes up when items arrive. Every stock change is recorded.",
+    "steps": [
+      "Stock goes down after a paid sale, when you send a transfer, or when you write off damaged or expired items.",
+      "Stock goes up when you receive a delivery or transfer, or process a customer return.",
+      "A saved but unpaid order does not reduce stock.",
+      "Cancelling a paid receipt puts the items back in stock.",
+      "To see a product's stock history, go to Inventory > Stock on Hand and double-click the product."
+    ],
+    "keywords": [
+      "when does stock change",
+      "how stock works",
+      "stock deducted",
+      "stock rules",
+      "what moves stock",
+      "stock goes down",
+      "kailan bumababa ang stock",
+      "paano nagbabago ang stock",
+      "kailan nadadagdagan ang stock"
+    ]
+  },
+  {
+    "title": "Cancel, refund, or return: which one to use",
+    "page": "/cashier",
+    "text": "Cancel a whole receipt. Refund items when the customer wants money back. Use Return or Exchange when the customer swaps items.",
+    "steps": [
+      "Choose Cancel when the whole sale was a mistake. It cancels the entire receipt.",
+      "Choose Refund when the customer returns some items and wants money back.",
+      "Choose Return or Exchange when the customer swaps items.",
+      "All three return the items to stock and reduce your sales total.",
+      "Go to Point of Sale > More Options > View Sales History to use any of them."
+    ],
+    "keywords": [
+      "difference between refund and cancel",
+      "when to cancel",
+      "when to refund",
+      "void or refund",
+      "return or refund",
+      "which one to use",
+      "cancel vs refund"
+    ]
+  },
+  {
+    "title": "What counts as your sales total",
+    "page": "/management/reporting?report=daily_sales",
+    "text": "Gross sales is the total value of everything sold. Net sales is the amount left after deductions and extra charges are included.",
+    "steps": [
+      "Start with gross sales, the full value of everything sold.",
+      "Subtract discounts, returns, refunds, and cancelled receipts.",
+      "If prices include tax, subtract the tax amount too.",
+      "Add extra charges you collected, such as a service charge. The result is net sales."
+    ],
+    "keywords": [
+      "how is net sales calculated",
+      "what is net sales",
+      "sales total meaning",
+      "gross vs net",
+      "why is my sales different",
+      "sales figure explained"
+    ]
+  },
+  {
+    "title": "What each branch keeps separate",
+    "page": "/management/select-branch",
+    "text": "Stock, prices, settings, and receipts are separate for each branch. Product categories and staff accounts are shared across the store.",
+    "steps": [
+      "Each branch has its own stock, prices, settings, and receipts.",
+      "Product categories are shared, so a change appears in every branch.",
+      "Staff accounts are shared. Choose which branches each staff member can access.",
+      "Reports show the selected branch. Select All Branch to see combined results."
+    ],
+    "keywords": [
+      "shared between branches",
+      "what is shared",
+      "do branches share",
+      "separate branches",
+      "branch data",
+      "same for all branches"
+    ]
+  },
+  {
+    "title": "When a customer owes you money",
+    "page": "/management/customers",
+    "text": "A customer can take the goods now and pay later. The sale is completed, and stock is reduced immediately. The unpaid balance stays on the customer's account until payment is made.",
+    "steps": [
+      "On the register, click Customer and select the customer.",
+      "Click Record Payment > Unpaid. The sale is completed and stock is reduced.",
+      "To collect payment later, go to More Options > Unpaid Orders and click Pay.",
+      "The customer can pay part of the balance. The rest remains unpaid."
+    ],
+    "keywords": [
+      "how credit works",
+      "utang rules",
+      "credit sale rules",
+      "how does credit work",
+      "balance owed"
+    ]
+  },
+  {
+    "title": "Collect an unpaid customer balance",
+    "page": "/management/customers",
+    "text": "You can collect all or part of a customer's unpaid balance later. Any amount left remains on the customer's account.",
+    "steps": [
+      "Go to More Options > Unpaid Orders.",
+      "Find and select the customer or unpaid order.",
+      "Click Pay and enter the amount received.",
+      "Complete the payment. Any remaining balance stays as unpaid."
+    ],
+    "keywords": [
+      "collect unpaid balance",
+      "pay customer balance",
+      "unpaid customer payment",
+      "partial customer payment"
+    ]
+  },
+  {
+    "title": "What happens when a paid receipt is cancelled",
+    "page": "/cashier",
+    "text": "Cancelling a paid receipt reverses the sale. The items return to stock, and the cancelled sale is removed from your sales total.",
+    "steps": [
+      "Go to Point of Sale > More Options > View Sales History.",
+      "Find and open the paid receipt.",
+      "Choose Cancel and confirm the cancellation.",
+      "Check that the items are back in stock and the sale is marked as cancelled."
+    ],
+    "keywords": [
+      "cancelled receipt stock",
+      "what happens when sale is cancelled",
+      "reverse paid sale",
+      "cancelled sale rules"
+    ]
+  },
+  {
+    "title": "How branch transfers change stock",
+    "page": "/management/inventory",
+    "text": "A transfer moves items between branches. Stock decreases at the sending branch when the transfer is sent and increases at the receiving branch when it arrives.",
+    "steps": [
+      "Create a transfer from the sending branch.",
+      "Send the transfer. The items leave the sending branch's stock.",
+      "Receive the transfer. The items are added to the receiving branch's stock.",
+      "Check both branches to confirm the new stock quantities."
+    ],
+    "keywords": [
+      "branch stock transfer",
+      "transfer stock out",
+      "transfer stock in",
+      "when does transfer change stock"
+    ]
+  },
+  {
+    "title": "When to adjust stock",
+    "page": "/management/inventory/stock-adjustment",
+    "text": "Use a stock adjustment when the recorded quantity is wrong or items were used in the store. Enter the correct quantity and a reason so the change is recorded.",
+    "steps": [
+      "Go to Inventory > Stock Adjustment.",
+      "Click New Stock Adjustment and select the product.",
+      "Enter the correct quantity and the reason.",
+      "Click Save. The stock changes immediately."
+    ],
+    "keywords": [
+      "when to adjust stock",
+      "record stock correction",
+      "wrong stock quantity",
+      "stock used in store"
+    ]
+  },
+  {
+    "title": "When to record a stock loss",
+    "page": "/management/inventory/loss-damage",
+    "text": "Use Loss & Damage when items are broken, expired, stolen, or missing. The items are removed from stock and the reason is recorded.",
+    "steps": [
+      "Click Sidebar > Inventory > Loss & Damage.",
+      "Click New Loss & Damage.",
+      "Select the product and enter the lost quantity.",
+      "Choose a reason, add a note (optional), and click Save."
+    ],
+    "keywords": [
+      "when to record stock loss",
+      "remove damaged stock",
+      "expired items stock",
+      "missing inventory rule"
+    ]
+  },
+  {
+    "title": "Which inventory record to use",
+    "page": "/management/inventory/stock-adjustment",
+    "text": "Choose the record that matches what happened: Stock Adjustment for a wrong number, Loss & Damage for unusable items, or Inventory Count for a physical count.",
+    "steps": [
+      "Use Stock Adjustment when the recorded quantity is wrong or items were used in the store.",
+      "Use Loss & Damage when items are broken, expired, stolen, or missing.",
+      "Use Inventory Count when you count the actual items on the shelves.",
+      "Open the matching option from the Inventory menu."
+    ],
+    "keywords": [
+      "choose inventory record",
+      "adjustment or loss",
+      "inventory count rule",
+      "which stock record"
+    ]
+  }
+]
