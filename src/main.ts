@@ -83,7 +83,7 @@ const escapeHtml = (value: string) =>
 async function loadArticles() {
   const loaded = await Promise.all(
     latestJsonFiles.map(async (fileName) => {
-      const response = await fetch(`/${fileName}`);
+      const response = await fetch(`./${fileName}`);
       if (!response.ok) {
         throw new Error(`Failed to load ${fileName}`);
       }
